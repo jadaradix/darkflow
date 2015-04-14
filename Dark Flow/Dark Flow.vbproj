@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20BDA89A-7279-4DB0-A2D1-8631DEC8531E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Dark_Flow.My.MyApplication</StartupObject>
+    <RootNamespace>Dark_Flow</RootNamespace>
+    <AssemblyName>Dark Flow</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>FullIcon.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Dark Flow.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <AdditionalParameters />
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Dark Flow.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <AdditionalParameters />
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="FastColoredTextBox">
+      <HintPath>bin\Debug\FastColoredTextBox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomControls\metroToolStripRenderer.vb" />
+    <Compile Include="FActionEditor.Designer.vb">
+      <DependentUpon>FActionEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FActionEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FFont.Designer.vb">
+      <DependentUpon>FFont.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FFont.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ActionsLib.vb" />
+    <Compile Include="Modules\ExternallyWriteable.vb" />
+    <Compile Include="CustomControls\clsColors.vb" />
+    <Compile Include="CustomControls\metroMenuRenderer.vb" />
+    <Compile Include="CustomControls\clsToolStripRenderer.vb" />
+    <Compile Include="FExportDone.Designer.vb">
+      <DependentUpon>FExportDone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FExportDone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPlatformInputs.Designer.vb">
+      <DependentUpon>FPlatformInputs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPlatformInputs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEditCode.Designer.vb">
+      <DependentUpon>FEditCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FEditCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAction.Designer.vb">
+      <DependentUpon>FAction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FAction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FInputBox.Designer.vb">
+      <DependentUpon>FInputBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FInputBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ODFXWork.vb" />
+    <Compile Include="Modules\SettingsLib.vb" />
+    <Compile Include="CustomControls\SexyCheckbox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SexyComboBox.Designer.vb">
+      <DependentUpon>SexyComboBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\SexyComboBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SexyButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Modules\DarkLib.vb" />
+    <Compile Include="CustomControls\DoubleBufferPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FEvent.Designer.vb">
+      <DependentUpon>FEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FObject.Designer.vb">
+      <DependentUpon>FObject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FObject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSelectPlatform.Designer.vb">
+      <DependentUpon>FSelectPlatform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSelectPlatform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FImage.Designer.vb">
+      <DependentUpon>FImage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FImage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FGameSettings.Designer.vb">
+      <DependentUpon>FGameSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FGameSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Generics.vb" />
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FOptions.Designer.vb">
+      <DependentUpon>FOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\RegIntLib.vb" />
+    <Compile Include="Modules\ResourcesLib.vb" />
+    <Compile Include="FScene.Designer.vb">
+      <DependentUpon>FScene.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FScene.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\OptionsLib.vb" />
+    <Compile Include="Modules\DWM.vb" />
+    <Compile Include="CustomControls\SexyDropper.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SexyGDILabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SexyGroupBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SexySplitter.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SexyTabControl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SexyTextBox.Designer.vb">
+      <DependentUpon>SexyTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\SexyTextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SexyTree.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControls\SuperPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FWelcome.Designer.vb">
+      <DependentUpon>FWelcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FWelcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FActionEditor.resx">
+      <DependentUpon>FActionEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FExportDone.resx">
+      <DependentUpon>FExportDone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FFont.resx">
+      <DependentUpon>FFont.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPlatformInputs.resx">
+      <DependentUpon>FPlatformInputs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEditCode.resx">
+      <DependentUpon>FEditCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAbout.resx">
+      <DependentUpon>FAbout.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAction.resx">
+      <DependentUpon>FAction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSound.resx">
+      <DependentUpon>FSound.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FInputBox.resx">
+      <DependentUpon>FInputBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\SexyComboBox.resx">
+      <DependentUpon>SexyComboBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FEvent.resx">
+      <DependentUpon>FEvent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FObject.resx">
+      <DependentUpon>FObject.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSelectPlatform.resx">
+      <DependentUpon>FSelectPlatform.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FImage.resx">
+      <DependentUpon>FImage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FGameSettings.resx">
+      <DependentUpon>FGameSettings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FOptions.resx">
+      <DependentUpon>FOptions.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FScene.resx">
+      <DependentUpon>FScene.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\SexyDropper.resx">
+      <DependentUpon>SexyDropper.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\SexyTabControl.resx">
+      <DependentUpon>SexyTabControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomControls\SexyTextBox.resx">
+      <DependentUpon>SexyTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FWelcome.resx">
+      <DependentUpon>FWelcome.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewFileIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenFileIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveFileIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageAddIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScriptAddIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OptionsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SceneAddIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundAddIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ObjectAddIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HelpIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExportIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VariableIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArrayIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StructureIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuyIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ObjectIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImageIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScriptIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SoundIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SceneIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultImage.png" />
+    <None Include="Resources\DefaultSound" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AcceptIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EditIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserIcon.png" />
+    <None Include="Resources\CCDecrease.png" />
+    <None Include="Resources\CCIncrease.png" />
+    <Compile Include="FAbout.Designer.vb">
+      <DependentUpon>FAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSound.Designer.vb">
+      <DependentUpon>FSound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\SexyLib.vb" />
+    <Compile Include="CustomControls\SexyNumeric.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\Win32.vb" />
+    <None Include="Resources\CCCheckMark.png" />
+    <None Include="Resources\CCDropperArrow.png" />
+    <None Include="Resources\LoginBG.png" />
+    <None Include="Resources\InverseGradient.png" />
+    <None Include="Resources\GenericGradient.png" />
+    <None Include="Resources\MicroLogo.png" />
+    <None Include="Resources\RestoreData" />
+    <None Include="Resources\LanguageIcon.png" />
+    <None Include="Resources\LiveChatIcon.png" />
+    <None Include="Resources\ForumIcon.png" />
+    <None Include="Resources\DarkWallIcon.png" />
+    <None Include="Resources\GamesIcon.png" />
+    <None Include="Resources\OpenFileIcon24.png" />
+    <None Include="Resources\EditIcon24.png" />
+    <None Include="Resources\AboutBanner.png" />
+    <None Include="Resources\SaveIcon24.png" />
+    <None Include="Resources\BigMusicIcon.png" />
+    <None Include="Resources\BackButton.png" />
+    <None Include="Resources\ActionBacker.png" />
+    <None Include="Resources\BlankActionCondition.png" />
+    <None Include="Resources\BlankActionIcon.png" />
+    <None Include="Resources\PasteIcon.png" />
+    <None Include="Resources\BarBG.png" />
+    <None Include="Resources\Corners.png" />
+    <None Include="Resources\joystick.png" />
+    <None Include="Resources\BigKeyIcon.png" />
+    <None Include="Resources\ActionIcon.png" />
+    <None Include="Resources\DefaultGameLogo.png" />
+    <None Include="Resources\TransBacker.png" />
+    <None Include="Resources\UpdateIcon.png" />
+    <None Include="Resources\WizardBG.png" />
+    <None Include="Resources\EventStep.png" />
+    <None Include="Resources\EventMouse.png" />
+    <None Include="Resources\EventKey.png" />
+    <None Include="Resources\EventCreate.png" />
+    <None Include="Resources\EventCollision.png" />
+    <None Include="Resources\OperaIcon.png" />
+    <None Include="Resources\SafariIcon.png" />
+    <None Include="Resources\IE9Icon.png" />
+    <None Include="Resources\FirefoxIcon.png" />
+    <None Include="Resources\ChromeIcon.png" />
+    <None Include="Resources\NoImage.png" />
+    <None Include="app.config" />
+    <None Include="Resources\ProBanner.png" />
+    <None Include="Resources\Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FullIcon.ico" />
+    <None Include="Resources\checkerrs.png" />
+    <None Include="Resources\SitePublishLogo.png" />
+    <None Include="Resources\Banner.png" />
+    <None Include="Resources\loading_null.png" />
+    <None Include="Resources\ajax-loader.gif" />
+    <None Include="Resources\upload.png" />
+    <None Include="Resources\font.png" />
+    <None Include="Resources\TranspBack.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
