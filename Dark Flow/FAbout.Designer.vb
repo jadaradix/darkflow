@@ -72,7 +72,7 @@ Partial Class FAbout
         Me.CopyrightLabel.Name = "CopyrightLabel"
         Me.CopyrightLabel.Size = New System.Drawing.Size(331, 19)
         Me.CopyrightLabel.TabIndex = 5
-        Me.CopyrightLabel.Text = "Copyright James Garner && Robert Dixon, 2010-2015"
+        Me.CopyrightLabel.Text = "Copyright James Garner && Robert Dixon, 2011-2015"
         '
         'View7ZipLicenseButton
         '

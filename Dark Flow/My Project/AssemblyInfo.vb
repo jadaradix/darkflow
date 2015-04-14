@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Create Games for Every Platform")> 
 <Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("Dark Flow")> 
-<Assembly: AssemblyCopyright("© Turos Enterprises 2011-2013")> 
+<Assembly: AssemblyCopyright("© James Garner and Robert Dixon 2011-2015")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
