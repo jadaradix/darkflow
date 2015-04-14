@@ -1,0 +1,8 @@
+TYPE Control
+ICON Alarm
+DISPLAY If Alarm !1! Rings
+CONDITIONAL
+NOAPPLIES
+BG
+ARG Alarm ID0
+IF_ALARM_RINGS !1!

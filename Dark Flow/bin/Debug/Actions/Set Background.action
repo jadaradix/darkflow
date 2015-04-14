@@ -1,0 +1,7 @@
+TYPE Scene
+ICON Background
+DISPLAY Set Background to !1!
+NOAPPLIES
+BG
+ARG ImageImage
+SET_BACKGROUND !1!

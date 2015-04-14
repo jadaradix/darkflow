@@ -1,0 +1,6 @@
+TYPE Movement
+ICON Acceleration
+DISPLAY Set Acceleration to !1!
+BG
+ARG AccelerationGeneric
+SET_ACCELERATION !1!

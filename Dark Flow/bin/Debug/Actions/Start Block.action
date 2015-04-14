@@ -1,0 +1,6 @@
+TYPE Control
+ICON BlockStart
+DISPLAY Start Block
+INDENT
+NOAPPLIES
+START_BLOCK

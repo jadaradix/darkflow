@@ -1,0 +1,6 @@
+TYPE Movement
+ICON XAcceleration
+DISPLAY Set X Acceleration to !1!
+BG
+ARG ValueGeneric
+INSTANCE_PROPERTY AX;!1!

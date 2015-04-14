@@ -1,0 +1,7 @@
+TYPE Misc
+ICON Comment
+DISPLAY !1!
+NOAPPLIES
+BG
+ARG CommentGeneric
+REM !1!

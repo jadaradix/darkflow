@@ -1,0 +1,10 @@
+TYPE Objects
+ICON JumpToPosition
+DISPLAY If !1! is at !2!, !3!
+CONDITIONAL
+NOAPPLIES
+BG
+ARG ObjectObject
+ARG X PositionGeneric
+ARG Y PositionGeneric
+IF_OBJECT_AT_POSITION !1!;!2!;!3!

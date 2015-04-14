@@ -101,7 +101,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modules\ActionsLib.vb" />
-    <Compile Include="Modules\ExternallyWriteable.vb" />
     <Compile Include="CustomControls\clsColors.vb" />
     <Compile Include="CustomControls\metroMenuRenderer.vb" />
     <Compile Include="CustomControls\clsToolStripRenderer.vb" />

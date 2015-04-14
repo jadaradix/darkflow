@@ -1,0 +1,8 @@
+TYPE Control
+ICON Platform
+DISPLAY If Game is Running on !1!
+CONDITIONAL
+NOAPPLIES
+BG
+ARG PlatformPlatform
+IF_PLATFORM !1!

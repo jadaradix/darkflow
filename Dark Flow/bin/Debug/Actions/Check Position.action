@@ -1,0 +1,10 @@
+TYPE Control
+ICON Depth
+DISPLAY Check for !1! at !2!, !3!
+CONDITIONAL
+NOAPPLIES
+BG
+ARG ObjectObject
+ARG XGeneric
+ARG YGeneric
+IF_CHECK_POSITION !1!;!2!;!3!

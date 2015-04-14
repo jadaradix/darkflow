@@ -1,0 +1,7 @@
+TYPE Misc
+ICON Sound
+DISPLAY Play !1!
+NOAPPLIES
+BG
+ARG SoundSound
+PLAY_SOUND !1!

@@ -1,0 +1,8 @@
+TYPE Control
+ICON IfLess
+DISPLAY If !1! < !2!
+CONDITIONAL
+BG
+ARG IfGeneric
+ARG Is Less ThanGeneric
+IF_LESS !1!;!2!

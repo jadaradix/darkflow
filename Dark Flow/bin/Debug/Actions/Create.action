@@ -1,0 +1,9 @@
+TYPE Objects
+ICON Create
+DISPLAY Create !1! at !2!, !3!
+NOAPPLIES
+BG
+ARG ObjectObject
+ARG X Position0
+ARG Y Position0
+CREATE !1!;!2!;!3!

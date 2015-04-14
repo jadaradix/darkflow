@@ -54,9 +54,7 @@ Public Class MainForm
         InitResourcesList()
         InitActions()
 
-        If Not InSchool Then
-            AssociateFileTypes()
-        End If
+        AssociateFileTypes()
 
         NewWork()
         SetProgramTitle()

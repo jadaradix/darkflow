@@ -1,0 +1,7 @@
+TYPE Misc
+ICON World
+DISPLAY Go to !1!
+NOAPPLIES
+BG
+ARG URLGeneric
+GO_TO_ADDRESS !1!

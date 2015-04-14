@@ -1,0 +1,6 @@
+TYPE Misc
+ICON TakeLocalDump
+DISPLAY Take A Local Dump
+NOAPPLIES
+BG
+SMALL_DUMP

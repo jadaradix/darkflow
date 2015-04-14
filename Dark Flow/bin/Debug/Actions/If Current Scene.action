@@ -1,0 +1,8 @@
+TYPE Scene
+ICON Scene
+DISPLAY If Scene is !1!
+CONDITIONAL
+NOAPPLIES
+BG
+ARG SceneScene
+IF_CURRENT_SCENE !1!

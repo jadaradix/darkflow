@@ -1,0 +1,8 @@
+TYPE Objects
+ICON DeleteAtPosition
+DISPLAY Delete at !1!, !2!
+NOAPPLIES
+BG
+ARG X Position0
+ARG Y Position0
+DELETE_AT_POSITION !1!;!2!

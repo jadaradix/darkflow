@@ -1,0 +1,14 @@
+RUNNER
+INPUT Up Arrow
+INPUT Down Arrow
+INPUT Left Arrow
+INPUT Right Arrow
+INPUT Space
+INPUT Enter
+INPUT Up Arrow Released
+INPUT Down Arrow Released
+INPUT Left Arrow Released
+INPUT Right Arrow Released
+INPUT Space Released
+INPUT Enter Released
+INPUT Escape Released

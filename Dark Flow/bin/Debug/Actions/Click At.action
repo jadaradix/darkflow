@@ -1,0 +1,7 @@
+TYPE Control
+ICON click
+DISPLAY Click At
+BG
+ARG XGeneric
+ARG YGeneric
+CLICK_AT !1!;!2!

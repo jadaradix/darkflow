@@ -1,0 +1,8 @@
+TYPE Control
+ICON IfMore
+DISPLAY If !1! > !2!
+CONDITIONAL
+BG
+ARG IfGeneric
+ARG Is Greater ThanGeneric
+IF_MORE !1!;!2!

@@ -11,17 +11,17 @@
 *.tmp_proj
 *.log
 *.pubxml
+*.vshost.exe
+*.exe.config
+*.exe.manifest
 
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
+obj/
+Dark Flow/bin/Release/
+Dark Flow/bin/Debug/DFTemp/
+Dark Flow/bin/Debug/LoadProject/
+Dark Flow/bin/Debug/Options.dat
+Dark Flow/bin/Debug/Dark Flow.xml
+Dark Flow/bin/Debug/data.dat
 
 _UpgradeReport_Files/
 Backup*/

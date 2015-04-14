@@ -1,0 +1,5 @@
+TYPE Movement
+ICON JumpToStartPosition
+DISPLAY Jump to Start Position
+BG
+JUMP_TO_START_POSITION

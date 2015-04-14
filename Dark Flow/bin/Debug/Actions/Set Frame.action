@@ -1,0 +1,6 @@
+TYPE Instance
+ICON SetFrame
+DISPLAY Set Frame to !1!
+BG
+ARG FrameGeneric
+INSTANCE_PROPERTY FRAME;!1!

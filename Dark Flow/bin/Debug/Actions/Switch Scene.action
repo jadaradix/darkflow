@@ -1,0 +1,7 @@
+TYPE Scene
+ICON Scene
+DISPLAY Switch to !1!
+NOAPPLIES
+BG
+ARG SceneScene
+SWITCH_SCENE !1!

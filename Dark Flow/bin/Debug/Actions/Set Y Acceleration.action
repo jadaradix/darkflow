@@ -1,0 +1,6 @@
+TYPE Movement
+ICON YAcceleration
+DISPLAY Set Y Acceleration to !1!
+BG
+ARG ValueGeneric
+INSTANCE_PROPERTY AY;!1!

@@ -1,0 +1,7 @@
+TYPE Control
+ICON Variable
+DISPLAY Set !1! to !2!
+BG
+ARG Variable0
+ARG Value0
+SET_VARIABLE !1!;!2!

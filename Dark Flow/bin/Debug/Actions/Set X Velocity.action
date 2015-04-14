@@ -1,0 +1,6 @@
+TYPE Movement
+ICON XVelocity
+DISPLAY Set X Velocity to !1!
+BG
+ARG Value0
+INSTANCE_PROPERTY VX;!1!

@@ -1,0 +1,8 @@
+TYPE 5
+ICON Alarm
+DISPLAY Set Alarm !1! to !2!
+NOAPPLIES
+BG
+ARG Alarm ID0
+ARG Time0
+SET_ALARM !1!;!2!

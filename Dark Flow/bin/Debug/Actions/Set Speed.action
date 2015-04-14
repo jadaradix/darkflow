@@ -1,0 +1,6 @@
+TYPE Movement
+ICON Speed
+DISPLAY Set Speed to !1!
+BG
+ARG SpeedGeneric
+SET_SPEED !1!

@@ -1,0 +1,10 @@
+TYPE Display
+ICON DrawText
+DISPLAY Draw !2! at !3!, !4! in !1!
+NOAPPLIES
+BG
+ARG Font ImageImage
+ARG TextGeneric
+ARG X PositionGeneric
+ARG Y PositionGeneric
+DRAW_TEXT !1!;!2!;!3!;!4!

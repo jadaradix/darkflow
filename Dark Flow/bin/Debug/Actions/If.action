@@ -1,0 +1,9 @@
+TYPE 2
+ICON If
+DISPLAY If !1! is !2!
+CONDITIONAL
+NOAPPLIES
+BG
+ARG ConditionGeneric
+ARG ValueGeneric
+IF !1!;!2!

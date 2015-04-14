@@ -1,0 +1,6 @@
+TYPE Scene
+ICON PreviousScene
+DISPLAY Switch to Previous Scene
+NOAPPLIES
+BG
+SWITCH_PREVIOUS_SCENE

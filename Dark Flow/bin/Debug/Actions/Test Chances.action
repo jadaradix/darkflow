@@ -1,0 +1,8 @@
+TYPE Control
+ICON Chance
+DISPLAY Test !1! Chances
+CONDITIONAL
+NOAPPLIES
+BG
+ARG ChancesGeneric
+IF RANDOM(1, !1!);1

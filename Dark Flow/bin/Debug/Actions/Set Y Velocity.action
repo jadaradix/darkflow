@@ -1,0 +1,6 @@
+TYPE Movement
+ICON YVelocity
+DISPLAY Set Y Velocity to !1!
+BG
+ARG Value0
+INSTANCE_PROPERTY VY;!1!

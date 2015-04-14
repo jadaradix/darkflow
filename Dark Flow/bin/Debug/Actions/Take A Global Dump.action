@@ -1,0 +1,6 @@
+TYPE Misc
+ICON TakeGlobalDump
+DISPLAY Take A Global Dump
+NOAPPLIES
+BG
+BIG_DUMP

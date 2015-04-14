@@ -1,0 +1,6 @@
+TYPE Instance
+ICON AnimationSpeed
+DISPLAY Set Animation Speed to !1!
+BG
+ARG ValueGeneric
+INSTANCE_PROPERTY FRAMESPEED;!1!

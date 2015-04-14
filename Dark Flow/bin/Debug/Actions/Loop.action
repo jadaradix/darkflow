@@ -1,0 +1,10 @@
+TYPE 2
+ICON Loop
+DISPLAY Loop !1! from !2! to !3!
+CONDITIONAL
+NOAPPLIES
+BG
+ARG Variable0
+ARG From0
+ARG To0
+LOOP !1!;!2!;!3!

@@ -1,0 +1,6 @@
+TYPE Scene
+ICON RestartScene
+DISPLAY Restart Scene
+NOAPPLIES
+BG
+RESTART_SCENE

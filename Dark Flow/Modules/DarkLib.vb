@@ -320,6 +320,7 @@ Module DarkLib
             IO.File.WriteAllBytes(OptionsPath, My.Resources.RestoreData)
         End If
         TempDir = AppPath + "DFTemp\"
+        If Not Directory.Exists(TempDir) Then Directory.CreateDirectory(TempDir)
         'Clear Temp folder from installation - delete to enable upgrade
         Try
             If Directory.Exists(TempDir + "DarkFlowInstall") Then Directory.Delete(TempDir + "DarkFlowInstall", True)

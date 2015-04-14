@@ -1,0 +1,6 @@
+TYPE Control
+ICON Delete
+DISPLAY Quit Game
+NOAPPLIES
+BG
+QUIT

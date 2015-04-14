@@ -1,0 +1,53 @@
+Dark Flow is a software application that may be used to create and distribute multi-platform games and applications. This license applies only to the use of the software application, and not to the use of the games or content produced with it. By proceeding to install Dark Flow, and in your use of the installed program, you agree to the terms of the below license.
+
+We permit you to use the Product only in accordance with the terms of this Licence and your rights will terminate automatically if you fail to comply with said terms. Should your rights terminate for any reason, you must immediately cease using the Product and destroy all copies under your posession.
+
+1. WARRANTY DISCLAIMER
+
+THIS PRODUCT IS DELIVERED TO YOU 'AS IS' AND WITH ALL FAULTS. WE DO NOT WARRANT THE PERFORMANCE OR RESULTS YOU MAY OBTAIN BY USING THIS PRODUCT. EXCEPT TO THE EXTENT THAT ANY WARRANTY, CONDITION, REPRESENTATION OR TERM CANNOT BE EXCLUDED OR LIMITED BY LAW, WE MAKE NO WARRANTIES, CONDITIONS, REPRESENTATIONS OR OTHER TERMS (EXPRESS OR IMPLIED WHETHER BY STATUTE, COMMON LAW, CUSTOM, USAGE OR OTHERWISE) AS TO ANY MATTER INCLUDING, WITHOUT LIMITATION, NON-INFRINGEMENT OF THIRD PARTY RIGHTS, SATISFACTORY QUALITY AND FITNESS FOR PURPOSE. THE PROVISIONS OF THIS SECTION 1 SHALL SURVIVE THE TERMINATION OF THIS LICENCE HOWSOEVER CAUSED.
+
+2. PRODUCT LICENCE 
+
+In consideration of your agreeing to abide by the terms of this Licence and subject to your compliance with the terms of this Licence, we grant you a non-exclusive, non-transferable licence to use the Product for the following purposes and in the following manner:
+
+- You may NOT charge for, (sub) license, loan, lease, loan or distribute the Product without our prior written consent. We reserve the right to withdraw any such consent (or part thereof) for any reason and without notice and to demand that you immediately cease any activity in respect to such action.
+
+- You may NOT repackage and create derivative works based upon the Product, other than for non-distributed personal use.  This applies only to the Studio itself, and the rights to games or other content produced and exported with the software belong to the individual or organisation responsible for its creation.
+
+- You may NOT use the Product to engage in or allow others to engage in any illegal activity.
+
+- You may NOT transfer or assign your rights or obligations under this Licence to any person or grant access to your Dark Flow account to any other individual.
+
+- You may NOT decompile, disassemble, reverse engineer or otherwise attempt to discover the source code of the Product except to the extent that you may be expressly permitted to reverse engineer or decompile under applicable law.
+
+3. ADDITIONAL COMPONENTS
+
+In Dark Flow, we have used parts of the 7-Zip program, which is licensed under the GNU LGPL license. Please visit www.7-zip.org, where the source code can be found. The 7-Zip license and further information concerning its use can be found in the included file '7-Zip License.txt' after the program is installed.
+
+Please also see the file 'Runner Licenses.txt', which details the licenses of games created with the program. The created games are not subject to this license.
+
+4. ADDITIONAL TERMS FOR BUSINESSES
+
+Where you are licensing the Product as a business and not as a consumer, this licence shall take effect between us and you as a business entity. You shall take all appropriate steps to ensure that the Product is operated in a proper manner by your employees or colleagues.
+
+5. INTELLECTUAL PROPERTY RIGHTS
+
+The Product is our intellectual property and is protected by law. You acknowledge that all intellectual property rights in the Product anywhere in the world belong to us, that rights in the Product are licensed (not sold) to you, and that you have no rights in, or to, the Product other than the right to use them in accordance with the terms of this Licence. 
+
+6. LIMITATION OF LIABILITY
+
+IN NO CIRCUMSTANCES WILL WE BE LIABLE TO YOU FOR ANY DAMAGES, CLAIMS OR COSTS WHATSOEVER (WHETHER IN CONTRACT, TORT, NEGLIGENCE OR OTHERWISE) INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, SAVINGS, INFORMATION OR DATA, NOR ANY CONSEQUENTIAL, INDIRECT, INCIDENTAL DAMAGES. THE FOREGOING LIMITATIONS AND EXCLUSION APPLY TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW IN YOUR JURISDICTION.
+
+7. LAW AND JURISDICTION
+
+This Licence and any dispute or claim arising out of or in connection with it or its subject matter or its formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with UK law and submitted to the non-exclusive jurisdiction of the UK courts.
+
+8. GENERAL
+
+- If any part of this Licence is found to be void and unenforceable it will not affect the validity of the remainder of this Licence, which shall remain valid and enforceable according to its terms.
+
+- We reserve the right to change these terms at any point with or without warning and your continued use of the application is subject to your continued compliance with the new terms.
+
+- Updates may be licensed to you with additional or different terms, but we have no obligation to provide any updates. 
+
+- This Licence is the entire agreement between you and us and supersedes any prior representations, undertakings or advertising relating to the Product and you acknowledge that in entering into this Licence you have not relied on any statement, representation, advertising, assurance or warranty (whether made negligently or innocently) other than as expressly set out in this Licence. 

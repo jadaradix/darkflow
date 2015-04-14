@@ -1,0 +1,6 @@
+TYPE Instance
+ICON SetAnglularVelocity
+DISPLAY Set Angular Velocity to !1!
+BG
+ARG Degrees / FrameGeneric
+INSTANCE_PROPERTY TV;!1!

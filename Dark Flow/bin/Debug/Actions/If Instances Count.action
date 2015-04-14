@@ -1,0 +1,9 @@
+TYPE Objects
+ICON InstancesCount
+DISPLAY If there are !2! instances of !1!
+CONDITIONAL
+NOAPPLIES
+BG
+ARG ObjectObject
+ARG CountGeneric
+IF_INSTANCES !1!;!2!

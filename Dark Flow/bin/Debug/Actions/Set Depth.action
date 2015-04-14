@@ -1,0 +1,6 @@
+TYPE Instance
+ICON Depth
+DISPLAY Set Depth
+BG
+ARG DepthGeneric
+INSTANCE_PROPERTY DEPTH;!1!

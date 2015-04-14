@@ -1,0 +1,8 @@
+TYPE Movement
+ICON JumpToPosition
+DISPLAY Jump to !1!, !2!
+BG
+ARG X Position0
+ARG Y Position0
+INSTANCE_PROPERTY X;!1!
+INSTANCE_PROPERTY Y;!2!

@@ -1,0 +1,6 @@
+TYPE Movement
+ICON JumpToRandomPosition
+DISPLAY Jump to Random Position
+BG
+INSTANCE_PROPERTY X;Random(0,SCENE_WIDTH)
+INSTANCE_PROPERTY Y;Random(0,SCENE_HEIGHT)

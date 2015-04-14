@@ -1,0 +1,6 @@
+TYPE Control
+ICON Alarm
+DISPLAY Disable Alarm
+BG
+ARG Alarm IDGeneric
+DISABLE_ALARM !11

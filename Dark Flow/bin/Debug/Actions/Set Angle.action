@@ -1,0 +1,6 @@
+TYPE Instance
+ICON SetAngle
+DISPLAY Set Angle to !1!
+BG
+ARG AngleGeneric
+INSTANCE_PROPERTY T;!1!

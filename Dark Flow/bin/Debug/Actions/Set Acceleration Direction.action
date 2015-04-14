@@ -1,0 +1,6 @@
+TYPE Movement
+ICON accelerationangle
+DISPLAY Set Acceleration Direction to !1!
+BG
+ARG AngleGeneric
+SET_ACCELERATION_DIRECTION !1!

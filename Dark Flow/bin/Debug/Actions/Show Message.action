@@ -1,0 +1,7 @@
+TYPE Display
+ICON Information
+DISPLAY Show !1!
+NOAPPLIES
+BG
+ARG Text0
+SHOW_MESSAGE !1!

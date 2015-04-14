@@ -1,0 +1,6 @@
+TYPE Instance
+ICON Image
+DISPLAY Set Image to !1!
+BG
+ARG ImageImage
+SET_IMAGE !1!

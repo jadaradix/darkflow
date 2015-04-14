@@ -1,0 +1,7 @@
+TYPE Objects
+ICON CreateAtRandomPosition
+DISPLAY Create !1! at Random Position
+NOAPPLIES
+BG
+ARG ObjectObject
+CREATE !1!;RANDOM(0,SCENE_WIDTH);RANDOM(0,SCENE_HEIGHT)

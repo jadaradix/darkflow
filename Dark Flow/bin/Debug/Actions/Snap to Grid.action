@@ -1,0 +1,7 @@
+TYPE Display
+ICON SnapToGrid
+DISPLAY Snap to !1! * !2! Grid
+BG
+ARG Snap X0
+ARG Snap Y0
+SNAP_TO_GRID !1!;!2!

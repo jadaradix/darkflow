@@ -1,0 +1,7 @@
+TYPE Scene
+ICON IfPreviousScene
+DISPLAY If Previous Scene Exists
+CONDITIONAL
+NOAPPLIES
+BG
+IF_PREVIOUS_SCENE
