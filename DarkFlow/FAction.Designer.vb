@@ -23,10 +23,10 @@ Partial Class FAction
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FAction))
-        Me.DOKButton = New Dark_Flow.SexyButton()
-        Me.LovelyContainer = New Dark_Flow.SuperPanel()
-        Me.AppliesToGroupBox = New Dark_Flow.SexyGroupBox()
-        Me.InstancesOfDropper = New Dark_Flow.SexyComboBox()
+        Me.DOKButton = New DarkFlow.SexyButton()
+        Me.LovelyContainer = New DarkFlow.SuperPanel()
+        Me.AppliesToGroupBox = New DarkFlow.SexyGroupBox()
+        Me.InstancesOfDropper = New DarkFlow.SexyComboBox()
         Me.ThisRadioButton = New System.Windows.Forms.RadioButton()
         Me.InstancesOfRadioButton = New System.Windows.Forms.RadioButton()
         Me.OtherRadioButton = New System.Windows.Forms.RadioButton()
@@ -168,8 +168,8 @@ Partial Class FAction
     Friend WithEvents ThisRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents LabelsPanel As System.Windows.Forms.Panel
     Friend WithEvents ControlsPanel As System.Windows.Forms.Panel
-    Friend WithEvents DOKButton As Dark_Flow.SexyButton
-    Friend WithEvents AppliesToGroupBox As Dark_Flow.SexyGroupBox
-    Friend WithEvents InstancesOfDropper As Dark_Flow.SexyComboBox
-    Friend WithEvents LovelyContainer As Dark_Flow.SuperPanel
+    Friend WithEvents DOKButton As DarkFlow.SexyButton
+    Friend WithEvents AppliesToGroupBox As DarkFlow.SexyGroupBox
+    Friend WithEvents InstancesOfDropper As DarkFlow.SexyComboBox
+    Friend WithEvents LovelyContainer As DarkFlow.SuperPanel
 End Class

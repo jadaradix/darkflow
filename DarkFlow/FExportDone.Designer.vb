@@ -22,15 +22,15 @@ Partial Class FExportDone
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.MainPanel = New Dark_Flow.SuperPanel()
-        Me.Function2 = New Dark_Flow.SexyButton()
-        Me.SuperPanel1 = New Dark_Flow.SuperPanel()
-        Me.PathLabel = New Dark_Flow.SexyGDILabel()
-        Me.SubInfoLabel = New Dark_Flow.SexyGDILabel()
-        Me.Function1 = New Dark_Flow.SexyButton()
+        Me.MainPanel = New DarkFlow.SuperPanel()
+        Me.Function2 = New DarkFlow.SexyButton()
+        Me.SuperPanel1 = New DarkFlow.SuperPanel()
+        Me.PathLabel = New DarkFlow.SexyGDILabel()
+        Me.SubInfoLabel = New DarkFlow.SexyGDILabel()
+        Me.Function1 = New DarkFlow.SexyButton()
         Me.FolderIconPanel = New System.Windows.Forms.Panel()
-        Me.MainInfoLabel = New Dark_Flow.SexyGDILabel()
-        Me.DOKButton = New Dark_Flow.SexyButton()
+        Me.MainInfoLabel = New DarkFlow.SexyGDILabel()
+        Me.DOKButton = New DarkFlow.SexyButton()
         Me.MainPanel.SuspendLayout()
         Me.SuperPanel1.SuspendLayout()
         Me.SuspendLayout()
@@ -114,7 +114,7 @@ Partial Class FExportDone
         '
         'FolderIconPanel
         '
-        Me.FolderIconPanel.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.FolderIconPanel.BackgroundImage = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         Me.FolderIconPanel.Location = New System.Drawing.Point(12, 74)
         Me.FolderIconPanel.Name = "FolderIconPanel"
         Me.FolderIconPanel.Size = New System.Drawing.Size(24, 24)
@@ -163,13 +163,13 @@ Partial Class FExportDone
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents DOKButton As Dark_Flow.SexyButton
-    Friend WithEvents MainPanel As Dark_Flow.SuperPanel
-    Friend WithEvents MainInfoLabel As Dark_Flow.SexyGDILabel
-    Friend WithEvents SubInfoLabel As Dark_Flow.SexyGDILabel
+    Friend WithEvents DOKButton As DarkFlow.SexyButton
+    Friend WithEvents MainPanel As DarkFlow.SuperPanel
+    Friend WithEvents MainInfoLabel As DarkFlow.SexyGDILabel
+    Friend WithEvents SubInfoLabel As DarkFlow.SexyGDILabel
     Friend WithEvents FolderIconPanel As System.Windows.Forms.Panel
-    Friend WithEvents Function1 As Dark_Flow.SexyButton
-    Friend WithEvents SuperPanel1 As Dark_Flow.SuperPanel
-    Friend WithEvents PathLabel As Dark_Flow.SexyGDILabel
-    Friend WithEvents Function2 As Dark_Flow.SexyButton
+    Friend WithEvents Function1 As DarkFlow.SexyButton
+    Friend WithEvents SuperPanel1 As DarkFlow.SuperPanel
+    Friend WithEvents PathLabel As DarkFlow.SexyGDILabel
+    Friend WithEvents Function2 As DarkFlow.SexyButton
 End Class

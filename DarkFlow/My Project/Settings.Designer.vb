@@ -64,9 +64,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.Dark_Flow.My.MySettings
+        Friend ReadOnly Property Settings() As Global.DarkFlow.My.MySettings
             Get
-                Return Global.Dark_Flow.My.MySettings.Default
+                Return Global.DarkFlow.My.MySettings.Default
             End Get
         End Property
     End Module

@@ -23,8 +23,8 @@ Partial Class SexyComboBox
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SexyComboBox))
-        Me.FrontSkin = New Dark_Flow.DoubleBufferPanel()
-        Me.BackCombo = New Dark_Flow.SexyDropper()
+        Me.FrontSkin = New DarkFlow.DoubleBufferPanel()
+        Me.BackCombo = New DarkFlow.SexyDropper()
         Me.SuspendLayout()
         '
         'FrontSkin
@@ -64,7 +64,7 @@ Partial Class SexyComboBox
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents BackCombo As Dark_Flow.SexyDropper
-    Friend WithEvents FrontSkin As Dark_Flow.DoubleBufferPanel
+    Friend WithEvents BackCombo As DarkFlow.SexyDropper
+    Friend WithEvents FrontSkin As DarkFlow.DoubleBufferPanel
 
 End Class

@@ -35,46 +35,46 @@ Partial Class FScene
         Me.ROpenObjectButton = New System.Windows.Forms.ToolStripMenuItem()
         Me.RSeparator = New System.Windows.Forms.ToolStripSeparator()
         Me.RMoveToPositionButton = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DesignPanel = New Dark_Flow.DoubleBufferPanel()
-        Me.BottomBanner = New Dark_Flow.DoubleBufferPanel()
-        Me.CoOrdinatesBanner = New Dark_Flow.DoubleBufferPanel()
-        Me.SnapYTextBox = New Dark_Flow.SexyTextBox()
-        Me.SnapXTextBox = New Dark_Flow.SexyTextBox()
+        Me.DesignPanel = New DarkFlow.DoubleBufferPanel()
+        Me.BottomBanner = New DarkFlow.DoubleBufferPanel()
+        Me.CoOrdinatesBanner = New DarkFlow.DoubleBufferPanel()
+        Me.SnapYTextBox = New DarkFlow.SexyTextBox()
+        Me.SnapXTextBox = New DarkFlow.SexyTextBox()
         Me.MouseDescLabel = New System.Windows.Forms.Label()
         Me.MouseLabel = New System.Windows.Forms.Label()
-        Me.ShowGridChecker = New Dark_Flow.SexyCheckBox()
+        Me.ShowGridChecker = New DarkFlow.SexyCheckBox()
         Me.SnapYLabel = New System.Windows.Forms.Label()
         Me.SnapXLabel = New System.Windows.Forms.Label()
         Me.MouseSnapDescLabel = New System.Windows.Forms.Label()
-        Me.SnapToGridChecker = New Dark_Flow.SexyCheckBox()
+        Me.SnapToGridChecker = New DarkFlow.SexyCheckBox()
         Me.MouseSnapLabel = New System.Windows.Forms.Label()
-        Me.Spacer = New Dark_Flow.DoubleBufferPanel()
-        Me.UseRightClickMenuChecker = New Dark_Flow.SexyCheckBox()
-        Me.ObjectBox = New Dark_Flow.SexyGroupBox()
-        Me.ObjectPreviewPanel = New Dark_Flow.DoubleBufferPanel()
-        Me.ObjectDropper = New Dark_Flow.SexyComboBox()
-        Me.OpenObjectButton = New Dark_Flow.SexyButton()
-        Me.SidePanel = New Dark_Flow.DoubleBufferPanel()
-        Me.NameTextBox = New Dark_Flow.SexyTextBox()
+        Me.Spacer = New DarkFlow.DoubleBufferPanel()
+        Me.UseRightClickMenuChecker = New DarkFlow.SexyCheckBox()
+        Me.ObjectBox = New DarkFlow.SexyGroupBox()
+        Me.ObjectPreviewPanel = New DarkFlow.DoubleBufferPanel()
+        Me.ObjectDropper = New DarkFlow.SexyComboBox()
+        Me.OpenObjectButton = New DarkFlow.SexyButton()
+        Me.SidePanel = New DarkFlow.DoubleBufferPanel()
+        Me.NameTextBox = New DarkFlow.SexyTextBox()
         Me.ViewSettingsLabel = New System.Windows.Forms.Label()
-        Me.ForegroundDropper = New Dark_Flow.SexyComboBox()
+        Me.ForegroundDropper = New DarkFlow.SexyComboBox()
         Me.NameLabel = New System.Windows.Forms.Label()
         Me.ForegroundLabel = New System.Windows.Forms.Label()
         Me.ViewWidthLabel = New System.Windows.Forms.Label()
-        Me.BackgroundDropper = New Dark_Flow.SexyComboBox()
-        Me.ViewWidthSelector = New Dark_Flow.SexyNumeric()
+        Me.BackgroundDropper = New DarkFlow.SexyComboBox()
+        Me.ViewWidthSelector = New DarkFlow.SexyNumeric()
         Me.BackgroundLabel = New System.Windows.Forms.Label()
         Me.ViewHeightLabel = New System.Windows.Forms.Label()
         Me.BGColorLabel = New System.Windows.Forms.Label()
-        Me.ViewHeightSelector = New Dark_Flow.SexyNumeric()
+        Me.ViewHeightSelector = New DarkFlow.SexyNumeric()
         Me.BGColorDisplayer = New System.Windows.Forms.Panel()
         Me.ViewXLabel = New System.Windows.Forms.Label()
-        Me.SceneHeightSelector = New Dark_Flow.SexyNumeric()
-        Me.ViewXSelector = New Dark_Flow.SexyNumeric()
+        Me.SceneHeightSelector = New DarkFlow.SexyNumeric()
+        Me.ViewXSelector = New DarkFlow.SexyNumeric()
         Me.SceneHeightLabel = New System.Windows.Forms.Label()
         Me.ViewYLabel = New System.Windows.Forms.Label()
-        Me.SceneWidthSelector = New Dark_Flow.SexyNumeric()
-        Me.ViewYSelector = New Dark_Flow.SexyNumeric()
+        Me.SceneWidthSelector = New DarkFlow.SexyNumeric()
+        Me.ViewYSelector = New DarkFlow.SexyNumeric()
         Me.SceneWidthLabel = New System.Windows.Forms.Label()
         Me.SceneSettingsLabel = New System.Windows.Forms.Label()
         Me.MainToolStrip.SuspendLayout()
@@ -96,7 +96,7 @@ Partial Class FScene
         '
         'DAcceptButton
         '
-        Me.DAcceptButton.Image = Global.Dark_Flow.My.Resources.Resources.AcceptIcon
+        Me.DAcceptButton.Image = Global.DarkFlow.My.Resources.Resources.AcceptIcon
         Me.DAcceptButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DAcceptButton.Name = "DAcceptButton"
         Me.DAcceptButton.Size = New System.Drawing.Size(64, 22)
@@ -121,7 +121,7 @@ Partial Class FScene
         '
         'DeleteButton
         '
-        Me.DeleteButton.Image = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteButton.Image = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         Me.DeleteButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DeleteButton.Name = "DeleteButton"
         Me.DeleteButton.Size = New System.Drawing.Size(60, 22)
@@ -135,14 +135,14 @@ Partial Class FScene
         '
         'RDeleteButton
         '
-        Me.RDeleteButton.Image = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.RDeleteButton.Image = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         Me.RDeleteButton.Name = "RDeleteButton"
         Me.RDeleteButton.Size = New System.Drawing.Size(173, 22)
         Me.RDeleteButton.Text = "Delete"
         '
         'ROpenObjectButton
         '
-        Me.ROpenObjectButton.Image = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.ROpenObjectButton.Image = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         Me.ROpenObjectButton.Name = "ROpenObjectButton"
         Me.ROpenObjectButton.Size = New System.Drawing.Size(173, 22)
         Me.ROpenObjectButton.Text = "Open Object"
@@ -171,7 +171,7 @@ Partial Class FScene
         '
         'BottomBanner
         '
-        Me.BottomBanner.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.GenericGradient
+        Me.BottomBanner.BackgroundImage = Global.DarkFlow.My.Resources.Resources.GenericGradient
         Me.BottomBanner.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BottomBanner.Controls.Add(Me.CoOrdinatesBanner)
         Me.BottomBanner.Controls.Add(Me.Spacer)
@@ -183,7 +183,7 @@ Partial Class FScene
         '
         'CoOrdinatesBanner
         '
-        Me.CoOrdinatesBanner.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.InverseGradient
+        Me.CoOrdinatesBanner.BackgroundImage = Global.DarkFlow.My.Resources.Resources.InverseGradient
         Me.CoOrdinatesBanner.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.CoOrdinatesBanner.Controls.Add(Me.SnapYTextBox)
         Me.CoOrdinatesBanner.Controls.Add(Me.SnapXTextBox)
@@ -402,7 +402,7 @@ Partial Class FScene
         '
         'SidePanel
         '
-        Me.SidePanel.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.InverseGradient
+        Me.SidePanel.BackgroundImage = Global.DarkFlow.My.Resources.Resources.InverseGradient
         Me.SidePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.SidePanel.Controls.Add(Me.NameTextBox)
         Me.SidePanel.Controls.Add(Me.ViewSettingsLabel)
@@ -737,53 +737,53 @@ Partial Class FScene
     Friend WithEvents DAcceptButton As System.Windows.Forms.ToolStripButton
     Friend WithEvents TSS1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents DCancelButton As System.Windows.Forms.ToolStripButton
-    Friend WithEvents ViewWidthSelector As Dark_Flow.SexyNumeric
+    Friend WithEvents ViewWidthSelector As DarkFlow.SexyNumeric
     Friend WithEvents ViewWidthLabel As System.Windows.Forms.Label
     Friend WithEvents NameLabel As System.Windows.Forms.Label
-    Friend WithEvents ViewYSelector As Dark_Flow.SexyNumeric
+    Friend WithEvents ViewYSelector As DarkFlow.SexyNumeric
     Friend WithEvents ViewYLabel As System.Windows.Forms.Label
-    Friend WithEvents ViewXSelector As Dark_Flow.SexyNumeric
+    Friend WithEvents ViewXSelector As DarkFlow.SexyNumeric
     Friend WithEvents ViewXLabel As System.Windows.Forms.Label
-    Friend WithEvents ViewHeightSelector As Dark_Flow.SexyNumeric
+    Friend WithEvents ViewHeightSelector As DarkFlow.SexyNumeric
     Friend WithEvents ViewHeightLabel As System.Windows.Forms.Label
     Friend WithEvents SceneSettingsLabel As System.Windows.Forms.Label
-    Friend WithEvents SceneHeightSelector As Dark_Flow.SexyNumeric
+    Friend WithEvents SceneHeightSelector As DarkFlow.SexyNumeric
     Friend WithEvents SceneHeightLabel As System.Windows.Forms.Label
-    Friend WithEvents SceneWidthSelector As Dark_Flow.SexyNumeric
+    Friend WithEvents SceneWidthSelector As DarkFlow.SexyNumeric
     Friend WithEvents SceneWidthLabel As System.Windows.Forms.Label
     Friend WithEvents BGColorLabel As System.Windows.Forms.Label
     Friend WithEvents BGColorDisplayer As System.Windows.Forms.Panel
     Friend WithEvents BackgroundLabel As System.Windows.Forms.Label
-    Friend WithEvents ForegroundDropper As Dark_Flow.SexyComboBox
+    Friend WithEvents ForegroundDropper As DarkFlow.SexyComboBox
     Friend WithEvents ForegroundLabel As System.Windows.Forms.Label
-    Friend WithEvents BackgroundDropper As Dark_Flow.SexyComboBox
+    Friend WithEvents BackgroundDropper As DarkFlow.SexyComboBox
     Friend WithEvents ViewSettingsLabel As System.Windows.Forms.Label
-    Friend WithEvents OpenObjectButton As Dark_Flow.SexyButton
-    Friend WithEvents UseRightClickMenuChecker As Dark_Flow.SexyCheckBox
+    Friend WithEvents OpenObjectButton As DarkFlow.SexyButton
+    Friend WithEvents UseRightClickMenuChecker As DarkFlow.SexyCheckBox
     Friend WithEvents RightClickMenu As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents RMoveToPositionButton As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RDeleteButton As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ROpenObjectButton As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents RSeparator As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents BottomBanner As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents SnapYTextBox As Dark_Flow.SexyTextBox
+    Friend WithEvents BottomBanner As DarkFlow.DoubleBufferPanel
+    Friend WithEvents SnapYTextBox As DarkFlow.SexyTextBox
     Friend WithEvents MouseLabel As System.Windows.Forms.Label
     Friend WithEvents SnapYLabel As System.Windows.Forms.Label
     Friend WithEvents MouseSnapDescLabel As System.Windows.Forms.Label
-    Friend WithEvents SnapXTextBox As Dark_Flow.SexyTextBox
+    Friend WithEvents SnapXTextBox As DarkFlow.SexyTextBox
     Friend WithEvents MouseSnapLabel As System.Windows.Forms.Label
-    Friend WithEvents SnapToGridChecker As Dark_Flow.SexyCheckBox
+    Friend WithEvents SnapToGridChecker As DarkFlow.SexyCheckBox
     Friend WithEvents SnapXLabel As System.Windows.Forms.Label
     Friend WithEvents MouseDescLabel As System.Windows.Forms.Label
-    Friend WithEvents ShowGridChecker As Dark_Flow.SexyCheckBox
-    Friend WithEvents CoOrdinatesBanner As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents SidePanel As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents ObjectBox As Dark_Flow.SexyGroupBox
-    Friend WithEvents ObjectPreviewPanel As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents ObjectDropper As Dark_Flow.SexyComboBox
-    Friend WithEvents NameTextBox As Dark_Flow.SexyTextBox
-    Friend WithEvents DesignPanel As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents Spacer As Dark_Flow.DoubleBufferPanel
+    Friend WithEvents ShowGridChecker As DarkFlow.SexyCheckBox
+    Friend WithEvents CoOrdinatesBanner As DarkFlow.DoubleBufferPanel
+    Friend WithEvents SidePanel As DarkFlow.DoubleBufferPanel
+    Friend WithEvents ObjectBox As DarkFlow.SexyGroupBox
+    Friend WithEvents ObjectPreviewPanel As DarkFlow.DoubleBufferPanel
+    Friend WithEvents ObjectDropper As DarkFlow.SexyComboBox
+    Friend WithEvents NameTextBox As DarkFlow.SexyTextBox
+    Friend WithEvents DesignPanel As DarkFlow.DoubleBufferPanel
+    Friend WithEvents Spacer As DarkFlow.DoubleBufferPanel
     Friend WithEvents DeleteButton As System.Windows.Forms.ToolStripButton
     Friend WithEvents TSS2 As System.Windows.Forms.ToolStripSeparator
 End Class

@@ -23,27 +23,27 @@ Partial Class FGameSettings
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FGameSettings))
-        Me.MainTabControl = New Dark_Flow.SexyTabControl()
+        Me.MainTabControl = New DarkFlow.SexyTabControl()
         Me.GeneralTab = New System.Windows.Forms.TabPage()
-        Me.GameIDBox = New Dark_Flow.SexyTextBox()
+        Me.GameIDBox = New DarkFlow.SexyTextBox()
         Me.GameIDLabel = New System.Windows.Forms.Label()
-        Me.ScenesDropper = New Dark_Flow.SexyComboBox()
+        Me.ScenesDropper = New DarkFlow.SexyComboBox()
         Me.StartingSceneLabel = New System.Windows.Forms.Label()
         Me.DisplayTab = New System.Windows.Forms.TabPage()
-        Me.LogoBoxContainer = New Dark_Flow.SuperPanel()
+        Me.LogoBoxContainer = New DarkFlow.SuperPanel()
         Me.LogoBox = New System.Windows.Forms.PictureBox()
         Me.LogoLabel = New System.Windows.Forms.Label()
-        Me.ChangeLogoButton = New Dark_Flow.SexyButton()
+        Me.ChangeLogoButton = New DarkFlow.SexyButton()
         Me.InformationTab = New System.Windows.Forms.TabPage()
-        Me.DescriptionBox = New Dark_Flow.SexyTextBox()
+        Me.DescriptionBox = New DarkFlow.SexyTextBox()
         Me.DescriptionLabel = New System.Windows.Forms.Label()
-        Me.CompanyBox = New Dark_Flow.SexyTextBox()
+        Me.CompanyBox = New DarkFlow.SexyTextBox()
         Me.CompanyLabel = New System.Windows.Forms.Label()
-        Me.CopyrightBox = New Dark_Flow.SexyTextBox()
+        Me.CopyrightBox = New DarkFlow.SexyTextBox()
         Me.CopyrightLabel = New System.Windows.Forms.Label()
-        Me.ProductBox = New Dark_Flow.SexyTextBox()
+        Me.ProductBox = New DarkFlow.SexyTextBox()
         Me.ProductLabel = New System.Windows.Forms.Label()
-        Me.DOKButton = New Dark_Flow.SexyButton()
+        Me.DOKButton = New DarkFlow.SexyButton()
         Me.MainTabControl.SuspendLayout()
         Me.GeneralTab.SuspendLayout()
         Me.DisplayTab.SuspendLayout()
@@ -181,7 +181,7 @@ Partial Class FGameSettings
         Me.ChangeLogoButton.TabStop = True
         Me.ChangeLogoButton.Text = "Change..."
         Me.ChangeLogoButton.TextImageSpacing = CType(5, Byte)
-        Me.ChangeLogoButton.XIMage = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.ChangeLogoButton.XIMage = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         '
         'InformationTab
         '
@@ -329,25 +329,25 @@ Partial Class FGameSettings
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents DOKButton As Dark_Flow.SexyButton
+    Friend WithEvents DOKButton As DarkFlow.SexyButton
     Friend WithEvents DisplayTab As System.Windows.Forms.TabPage
     Friend WithEvents GeneralTab As System.Windows.Forms.TabPage
-    Friend WithEvents MainTabControl As Dark_Flow.SexyTabControl
+    Friend WithEvents MainTabControl As DarkFlow.SexyTabControl
     Friend WithEvents InformationTab As System.Windows.Forms.TabPage
     Friend WithEvents StartingSceneLabel As System.Windows.Forms.Label
-    Friend WithEvents ScenesDropper As Dark_Flow.SexyComboBox
+    Friend WithEvents ScenesDropper As DarkFlow.SexyComboBox
     Friend WithEvents ProductLabel As System.Windows.Forms.Label
-    Friend WithEvents ProductBox As Dark_Flow.SexyTextBox
-    Friend WithEvents CopyrightBox As Dark_Flow.SexyTextBox
+    Friend WithEvents ProductBox As DarkFlow.SexyTextBox
+    Friend WithEvents CopyrightBox As DarkFlow.SexyTextBox
     Friend WithEvents CopyrightLabel As System.Windows.Forms.Label
-    Friend WithEvents CompanyBox As Dark_Flow.SexyTextBox
+    Friend WithEvents CompanyBox As DarkFlow.SexyTextBox
     Friend WithEvents CompanyLabel As System.Windows.Forms.Label
     Friend WithEvents DescriptionLabel As System.Windows.Forms.Label
-    Friend WithEvents DescriptionBox As Dark_Flow.SexyTextBox
+    Friend WithEvents DescriptionBox As DarkFlow.SexyTextBox
     Friend WithEvents GameIDLabel As System.Windows.Forms.Label
-    Friend WithEvents GameIDBox As Dark_Flow.SexyTextBox
+    Friend WithEvents GameIDBox As DarkFlow.SexyTextBox
     Friend WithEvents LogoBox As System.Windows.Forms.PictureBox
-    Friend WithEvents ChangeLogoButton As Dark_Flow.SexyButton
+    Friend WithEvents ChangeLogoButton As DarkFlow.SexyButton
     Friend WithEvents LogoLabel As System.Windows.Forms.Label
-    Friend WithEvents LogoBoxContainer As Dark_Flow.SuperPanel
+    Friend WithEvents LogoBoxContainer As DarkFlow.SuperPanel
 End Class

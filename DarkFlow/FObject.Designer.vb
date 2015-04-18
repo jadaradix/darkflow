@@ -52,30 +52,30 @@ Partial Class FObject
         Me.DeleteActionRightClickButton = New System.Windows.Forms.ToolStripMenuItem()
         Me.ClearActionsRightClickButton = New System.Windows.Forms.ToolStripMenuItem()
         Me.BottomPanel = New System.Windows.Forms.Panel()
-        Me.ActionsToAddTabControl = New Dark_Flow.SexyTabControl()
+        Me.ActionsToAddTabControl = New DarkFlow.SexyTabControl()
         Me.ActionInfoPanel = New System.Windows.Forms.Panel()
         Me.ArgumentsListLabel = New System.Windows.Forms.Label()
         Me.ArgumentsHeaderLabel = New System.Windows.Forms.Label()
         Me.ActionNameLabel = New System.Windows.Forms.Label()
         Me.ActionsList = New System.Windows.Forms.ListBox()
-        Me.ErrorPanel = New Dark_Flow.DoubleBufferPanel()
-        Me.CloseErrors = New Dark_Flow.SexyButton()
+        Me.ErrorPanel = New DarkFlow.DoubleBufferPanel()
+        Me.CloseErrors = New DarkFlow.SexyButton()
         Me.ErrorLabel = New System.Windows.Forms.TextBox()
-        Me.SidePanel = New Dark_Flow.DoubleBufferPanel()
-        Me.DepthBox = New Dark_Flow.SexyNumeric()
+        Me.SidePanel = New DarkFlow.DoubleBufferPanel()
+        Me.DepthBox = New DarkFlow.SexyNumeric()
         Me.DepthLabel = New System.Windows.Forms.Label()
-        Me.EventsListBacker = New Dark_Flow.SuperPanel()
+        Me.EventsListBacker = New DarkFlow.SuperPanel()
         Me.EventsList = New System.Windows.Forms.ListBox()
-        Me.ImageDropper = New Dark_Flow.SexyComboBox()
-        Me.NameTextBox = New Dark_Flow.SexyTextBox()
+        Me.ImageDropper = New DarkFlow.SexyComboBox()
+        Me.NameTextBox = New DarkFlow.SexyTextBox()
         Me.NameLabel = New System.Windows.Forms.Label()
-        Me.EditImageButton = New Dark_Flow.SexyButton()
+        Me.EditImageButton = New DarkFlow.SexyButton()
         Me.ImageLabel = New System.Windows.Forms.Label()
-        Me.AddEventButton = New Dark_Flow.SexyButton()
-        Me.DeleteEventButton = New Dark_Flow.SexyButton()
+        Me.AddEventButton = New DarkFlow.SexyButton()
+        Me.DeleteEventButton = New DarkFlow.SexyButton()
         Me.ImagePreviewPanel = New System.Windows.Forms.Panel()
-        Me.ChangeEventButton = New Dark_Flow.SexyButton()
-        Me.OpenImageButton = New Dark_Flow.SexyButton()
+        Me.ChangeEventButton = New DarkFlow.SexyButton()
+        Me.OpenImageButton = New DarkFlow.SexyButton()
         Me.EventsLabel = New System.Windows.Forms.Label()
         Me.MainToolStrip.SuspendLayout()
         Me.ActionRightClickMenu.SuspendLayout()
@@ -98,7 +98,7 @@ Partial Class FObject
         '
         'DAcceptButton
         '
-        Me.DAcceptButton.Image = Global.Dark_Flow.My.Resources.Resources.AcceptIcon
+        Me.DAcceptButton.Image = Global.DarkFlow.My.Resources.Resources.AcceptIcon
         Me.DAcceptButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DAcceptButton.Name = "DAcceptButton"
         Me.DAcceptButton.Size = New System.Drawing.Size(64, 20)
@@ -124,7 +124,7 @@ Partial Class FObject
         '
         'DeleteButton
         '
-        Me.DeleteButton.Image = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteButton.Image = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         Me.DeleteButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DeleteButton.Name = "DeleteButton"
         Me.DeleteButton.Size = New System.Drawing.Size(60, 20)
@@ -133,7 +133,7 @@ Partial Class FObject
         'SelectAllButton
         '
         Me.SelectAllButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.SelectAllButton.Image = Global.Dark_Flow.My.Resources.Resources.CopyIcon
+        Me.SelectAllButton.Image = Global.DarkFlow.My.Resources.Resources.CopyIcon
         Me.SelectAllButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.SelectAllButton.Name = "SelectAllButton"
         Me.SelectAllButton.Size = New System.Drawing.Size(75, 20)
@@ -148,7 +148,7 @@ Partial Class FObject
         'SelectManyButton
         '
         Me.SelectManyButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.SelectManyButton.Image = Global.Dark_Flow.My.Resources.Resources.ArrayIcon
+        Me.SelectManyButton.Image = Global.DarkFlow.My.Resources.Resources.ArrayIcon
         Me.SelectManyButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.SelectManyButton.Name = "SelectManyButton"
         Me.SelectManyButton.Size = New System.Drawing.Size(91, 20)
@@ -157,7 +157,7 @@ Partial Class FObject
         'SelectOneButton
         '
         Me.SelectOneButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.SelectOneButton.Image = Global.Dark_Flow.My.Resources.Resources.ArrayIcon
+        Me.SelectOneButton.Image = Global.DarkFlow.My.Resources.Resources.ArrayIcon
         Me.SelectOneButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.SelectOneButton.Name = "SelectOneButton"
         Me.SelectOneButton.Size = New System.Drawing.Size(83, 20)
@@ -172,7 +172,7 @@ Partial Class FObject
         'CheckErrorsButton
         '
         Me.CheckErrorsButton.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.CheckErrorsButton.Image = Global.Dark_Flow.My.Resources.Resources.checkerrs
+        Me.CheckErrorsButton.Image = Global.DarkFlow.My.Resources.Resources.checkerrs
         Me.CheckErrorsButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.CheckErrorsButton.Name = "CheckErrorsButton"
         Me.CheckErrorsButton.Size = New System.Drawing.Size(133, 20)
@@ -186,7 +186,7 @@ Partial Class FObject
         '
         'EditValuesRightClickButton
         '
-        Me.EditValuesRightClickButton.Image = Global.Dark_Flow.My.Resources.Resources.EditIcon
+        Me.EditValuesRightClickButton.Image = Global.DarkFlow.My.Resources.Resources.EditIcon
         Me.EditValuesRightClickButton.Name = "EditValuesRightClickButton"
         Me.EditValuesRightClickButton.Size = New System.Drawing.Size(178, 22)
         Me.EditValuesRightClickButton.Text = "Edit Values"
@@ -198,14 +198,14 @@ Partial Class FObject
         '
         'SelectOneRightClickButton
         '
-        Me.SelectOneRightClickButton.Image = Global.Dark_Flow.My.Resources.Resources.ArrayIcon
+        Me.SelectOneRightClickButton.Image = Global.DarkFlow.My.Resources.Resources.ArrayIcon
         Me.SelectOneRightClickButton.Name = "SelectOneRightClickButton"
         Me.SelectOneRightClickButton.Size = New System.Drawing.Size(178, 22)
         Me.SelectOneRightClickButton.Text = "Select One"
         '
         'SelectManyRightClickButton
         '
-        Me.SelectManyRightClickButton.Image = Global.Dark_Flow.My.Resources.Resources.ArrayIcon
+        Me.SelectManyRightClickButton.Image = Global.DarkFlow.My.Resources.Resources.ArrayIcon
         Me.SelectManyRightClickButton.Name = "SelectManyRightClickButton"
         Me.SelectManyRightClickButton.Size = New System.Drawing.Size(178, 22)
         Me.SelectManyRightClickButton.Text = "Select Many"
@@ -236,7 +236,7 @@ Partial Class FObject
         '
         'CopyActionRightClickButton
         '
-        Me.CopyActionRightClickButton.Image = Global.Dark_Flow.My.Resources.Resources.CopyIcon
+        Me.CopyActionRightClickButton.Image = Global.DarkFlow.My.Resources.Resources.CopyIcon
         Me.CopyActionRightClickButton.Name = "CopyActionRightClickButton"
         Me.CopyActionRightClickButton.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
         Me.CopyActionRightClickButton.Size = New System.Drawing.Size(178, 22)
@@ -244,7 +244,7 @@ Partial Class FObject
         '
         'PasteActionBelowRightClickButton
         '
-        Me.PasteActionBelowRightClickButton.Image = Global.Dark_Flow.My.Resources.Resources.PasteIcon
+        Me.PasteActionBelowRightClickButton.Image = Global.DarkFlow.My.Resources.Resources.PasteIcon
         Me.PasteActionBelowRightClickButton.Name = "PasteActionBelowRightClickButton"
         Me.PasteActionBelowRightClickButton.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
         Me.PasteActionBelowRightClickButton.Size = New System.Drawing.Size(178, 22)
@@ -257,7 +257,7 @@ Partial Class FObject
         '
         'DeleteActionRightClickButton
         '
-        Me.DeleteActionRightClickButton.Image = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteActionRightClickButton.Image = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         Me.DeleteActionRightClickButton.Name = "DeleteActionRightClickButton"
         Me.DeleteActionRightClickButton.ShortcutKeys = System.Windows.Forms.Keys.Delete
         Me.DeleteActionRightClickButton.Size = New System.Drawing.Size(178, 22)
@@ -362,7 +362,7 @@ Partial Class FObject
         '
         'ErrorPanel
         '
-        Me.ErrorPanel.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.InverseGradient
+        Me.ErrorPanel.BackgroundImage = Global.DarkFlow.My.Resources.Resources.InverseGradient
         Me.ErrorPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ErrorPanel.Controls.Add(Me.CloseErrors)
         Me.ErrorPanel.Controls.Add(Me.ErrorLabel)
@@ -409,7 +409,7 @@ Partial Class FObject
         'SidePanel
         '
         Me.SidePanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.SidePanel.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.InverseGradient
+        Me.SidePanel.BackgroundImage = Global.DarkFlow.My.Resources.Resources.InverseGradient
         Me.SidePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.SidePanel.Controls.Add(Me.DepthBox)
         Me.SidePanel.Controls.Add(Me.DepthLabel)
@@ -669,21 +669,21 @@ Partial Class FObject
     Friend WithEvents NameLabel As System.Windows.Forms.Label
     Friend WithEvents ImageLabel As System.Windows.Forms.Label
     Friend WithEvents ImagePreviewPanel As System.Windows.Forms.Panel
-    Friend WithEvents OpenImageButton As Dark_Flow.SexyButton
+    Friend WithEvents OpenImageButton As DarkFlow.SexyButton
     Friend WithEvents EventsLabel As System.Windows.Forms.Label
     Friend WithEvents EventsList As System.Windows.Forms.ListBox
-    Friend WithEvents AddEventButton As Dark_Flow.SexyButton
-    Friend WithEvents DeleteEventButton As Dark_Flow.SexyButton
-    Friend WithEvents ChangeEventButton As Dark_Flow.SexyButton
-    Friend WithEvents ActionsToAddTabControl As Dark_Flow.SexyTabControl
+    Friend WithEvents AddEventButton As DarkFlow.SexyButton
+    Friend WithEvents DeleteEventButton As DarkFlow.SexyButton
+    Friend WithEvents ChangeEventButton As DarkFlow.SexyButton
+    Friend WithEvents ActionsToAddTabControl As DarkFlow.SexyTabControl
     Friend WithEvents ActionsList As System.Windows.Forms.ListBox
-    Friend WithEvents EditImageButton As Dark_Flow.SexyButton
-    Friend WithEvents NameTextBox As Dark_Flow.SexyTextBox
-    Friend WithEvents SidePanel As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents ImageDropper As Dark_Flow.SexyComboBox
+    Friend WithEvents EditImageButton As DarkFlow.SexyButton
+    Friend WithEvents NameTextBox As DarkFlow.SexyTextBox
+    Friend WithEvents SidePanel As DarkFlow.DoubleBufferPanel
+    Friend WithEvents ImageDropper As DarkFlow.SexyComboBox
     Friend WithEvents DeleteButton As System.Windows.Forms.ToolStripButton
     Friend WithEvents TSS2 As System.Windows.Forms.ToolStripSeparator
-    Friend WithEvents EventsListBacker As Dark_Flow.SuperPanel
+    Friend WithEvents EventsListBacker As DarkFlow.SuperPanel
     Friend WithEvents BottomPanel As System.Windows.Forms.Panel
     Friend WithEvents ActionInfoPanel As System.Windows.Forms.Panel
     Friend WithEvents ArgumentsListLabel As System.Windows.Forms.Label
@@ -705,13 +705,13 @@ Partial Class FObject
     Friend WithEvents RightClickSep2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents DeleteActionRightClickButton As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ClearActionsRightClickButton As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents DepthBox As Dark_Flow.SexyNumeric
+    Friend WithEvents DepthBox As DarkFlow.SexyNumeric
     Friend WithEvents DepthLabel As System.Windows.Forms.Label
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents CheckErrorsButton As System.Windows.Forms.ToolStripButton
-    Friend WithEvents ErrorPanel As Dark_Flow.DoubleBufferPanel
+    Friend WithEvents ErrorPanel As DarkFlow.DoubleBufferPanel
     Friend WithEvents ErrorLabel As System.Windows.Forms.TextBox
-    Friend WithEvents CloseErrors As Dark_Flow.SexyButton
+    Friend WithEvents CloseErrors As DarkFlow.SexyButton
     Friend WithEvents SelectAllToolBtn As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
 End Class

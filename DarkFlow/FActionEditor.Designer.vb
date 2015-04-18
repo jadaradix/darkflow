@@ -26,35 +26,35 @@ Partial Class FActionEditor
         Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Actions", 0, 0)
         Me.ImageLabel = New System.Windows.Forms.Label()
         Me.IconPanel = New System.Windows.Forms.Panel()
-        Me.ImageDropper = New Dark_Flow.SexyComboBox()
-        Me.ArgumentsListBacker = New Dark_Flow.SuperPanel()
+        Me.ImageDropper = New DarkFlow.SexyComboBox()
+        Me.ArgumentsListBacker = New DarkFlow.SuperPanel()
         Me.ArgumentsList = New System.Windows.Forms.ListBox()
-        Me.NoAppliesChecker = New Dark_Flow.SexyCheckBox()
-        Me.DedentChecker = New Dark_Flow.SexyCheckBox()
-        Me.ConditionalChecker = New Dark_Flow.SexyCheckBox()
-        Me.IndentChecker = New Dark_Flow.SexyCheckBox()
-        Me.CodeBox = New Dark_Flow.SexyTextBox()
-        Me.ActionHeader = New Dark_Flow.SuperPanel()
-        Me.AddButton = New Dark_Flow.SexyButton()
-        Me.DeleteButton = New Dark_Flow.SexyButton()
-        Me.SaveButton = New Dark_Flow.SexyButton()
+        Me.NoAppliesChecker = New DarkFlow.SexyCheckBox()
+        Me.DedentChecker = New DarkFlow.SexyCheckBox()
+        Me.ConditionalChecker = New DarkFlow.SexyCheckBox()
+        Me.IndentChecker = New DarkFlow.SexyCheckBox()
+        Me.CodeBox = New DarkFlow.SexyTextBox()
+        Me.ActionHeader = New DarkFlow.SuperPanel()
+        Me.AddButton = New DarkFlow.SexyButton()
+        Me.DeleteButton = New DarkFlow.SexyButton()
+        Me.SaveButton = New DarkFlow.SexyButton()
         Me.MainNameLabel = New System.Windows.Forms.Label()
-        Me.MainSplitter = New Dark_Flow.SexySplitter()
-        Me.ActionsList = New Dark_Flow.SexyTree()
-        Me.DisplayBox = New Dark_Flow.SexyTextBox()
+        Me.MainSplitter = New DarkFlow.SexySplitter()
+        Me.ActionsList = New DarkFlow.SexyTree()
+        Me.DisplayBox = New DarkFlow.SexyTextBox()
         Me.DisplayLabel = New System.Windows.Forms.Label()
-        Me.NameBox = New Dark_Flow.SexyTextBox()
+        Me.NameBox = New DarkFlow.SexyTextBox()
         Me.NameLabel = New System.Windows.Forms.Label()
-        Me.ArgumentPanel = New Dark_Flow.SuperPanel()
-        Me.ArgumentAcceptButton = New Dark_Flow.SexyButton()
-        Me.ArgumentTypeDropper = New Dark_Flow.SexyComboBox()
-        Me.ArgumentNameBox = New Dark_Flow.SexyTextBox()
-        Me.EditArgButton = New Dark_Flow.SexyButton()
-        Me.DeleteArgButton = New Dark_Flow.SexyButton()
-        Me.AddArgButton = New Dark_Flow.SexyButton()
-        Me.BGChecker = New Dark_Flow.SexyCheckBox()
+        Me.ArgumentPanel = New DarkFlow.SuperPanel()
+        Me.ArgumentAcceptButton = New DarkFlow.SexyButton()
+        Me.ArgumentTypeDropper = New DarkFlow.SexyComboBox()
+        Me.ArgumentNameBox = New DarkFlow.SexyTextBox()
+        Me.EditArgButton = New DarkFlow.SexyButton()
+        Me.DeleteArgButton = New DarkFlow.SexyButton()
+        Me.AddArgButton = New DarkFlow.SexyButton()
+        Me.BGChecker = New DarkFlow.SexyCheckBox()
         Me.CategoryLabel = New System.Windows.Forms.Label()
-        Me.CategoryDropper = New Dark_Flow.SexyComboBox()
+        Me.CategoryDropper = New DarkFlow.SexyComboBox()
         Me.ArgumentsListBacker.SuspendLayout()
         Me.ActionHeader.SuspendLayout()
         Me.ArgumentPanel.SuspendLayout()
@@ -217,7 +217,7 @@ Partial Class FActionEditor
         Me.AddButton.TabStop = True
         Me.AddButton.Text = "Add"
         Me.AddButton.TextImageSpacing = CType(0, Byte)
-        Me.AddButton.XIMage = Global.Dark_Flow.My.Resources.Resources.AddIcon
+        Me.AddButton.XIMage = Global.DarkFlow.My.Resources.Resources.AddIcon
         '
         'DeleteButton
         '
@@ -235,7 +235,7 @@ Partial Class FActionEditor
         Me.DeleteButton.TabStop = True
         Me.DeleteButton.Text = "Delete"
         Me.DeleteButton.TextImageSpacing = CType(0, Byte)
-        Me.DeleteButton.XIMage = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteButton.XIMage = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         '
         'SaveButton
         '
@@ -253,7 +253,7 @@ Partial Class FActionEditor
         Me.SaveButton.TabStop = True
         Me.SaveButton.Text = "Save"
         Me.SaveButton.TextImageSpacing = CType(0, Byte)
-        Me.SaveButton.XIMage = Global.Dark_Flow.My.Resources.Resources.SaveFileIcon
+        Me.SaveButton.XIMage = Global.DarkFlow.My.Resources.Resources.SaveFileIcon
         '
         'MainNameLabel
         '
@@ -371,7 +371,7 @@ Partial Class FActionEditor
         Me.ArgumentAcceptButton.TabStop = True
         Me.ArgumentAcceptButton.Text = "Accept"
         Me.ArgumentAcceptButton.TextImageSpacing = CType(0, Byte)
-        Me.ArgumentAcceptButton.XIMage = Global.Dark_Flow.My.Resources.Resources.AcceptIcon
+        Me.ArgumentAcceptButton.XIMage = Global.DarkFlow.My.Resources.Resources.AcceptIcon
         '
         'ArgumentTypeDropper
         '
@@ -411,7 +411,7 @@ Partial Class FActionEditor
         Me.EditArgButton.TabIndex = 26
         Me.EditArgButton.TabStop = True
         Me.EditArgButton.TextImageSpacing = CType(0, Byte)
-        Me.EditArgButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EditIcon
+        Me.EditArgButton.XIMage = Global.DarkFlow.My.Resources.Resources.EditIcon
         '
         'DeleteArgButton
         '
@@ -428,7 +428,7 @@ Partial Class FActionEditor
         Me.DeleteArgButton.TabIndex = 25
         Me.DeleteArgButton.TabStop = True
         Me.DeleteArgButton.TextImageSpacing = CType(0, Byte)
-        Me.DeleteArgButton.XIMage = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteArgButton.XIMage = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         '
         'AddArgButton
         '
@@ -445,7 +445,7 @@ Partial Class FActionEditor
         Me.AddArgButton.TabIndex = 24
         Me.AddArgButton.TabStop = True
         Me.AddArgButton.TextImageSpacing = CType(0, Byte)
-        Me.AddArgButton.XIMage = Global.Dark_Flow.My.Resources.Resources.AddIcon
+        Me.AddArgButton.XIMage = Global.DarkFlow.My.Resources.Resources.AddIcon
         '
         'BGChecker
         '
@@ -522,35 +522,35 @@ Partial Class FActionEditor
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents ActionsList As Dark_Flow.SexyTree
-    Friend WithEvents MainSplitter As Dark_Flow.SexySplitter
-    Friend WithEvents ActionHeader As Dark_Flow.SuperPanel
+    Friend WithEvents ActionsList As DarkFlow.SexyTree
+    Friend WithEvents MainSplitter As DarkFlow.SexySplitter
+    Friend WithEvents ActionHeader As DarkFlow.SuperPanel
     Friend WithEvents MainNameLabel As System.Windows.Forms.Label
-    Friend WithEvents SaveButton As Dark_Flow.SexyButton
-    Friend WithEvents CodeBox As Dark_Flow.SexyTextBox
-    Friend WithEvents IndentChecker As Dark_Flow.SexyCheckBox
-    Friend WithEvents DedentChecker As Dark_Flow.SexyCheckBox
-    Friend WithEvents NoAppliesChecker As Dark_Flow.SexyCheckBox
-    Friend WithEvents ConditionalChecker As Dark_Flow.SexyCheckBox
+    Friend WithEvents SaveButton As DarkFlow.SexyButton
+    Friend WithEvents CodeBox As DarkFlow.SexyTextBox
+    Friend WithEvents IndentChecker As DarkFlow.SexyCheckBox
+    Friend WithEvents DedentChecker As DarkFlow.SexyCheckBox
+    Friend WithEvents NoAppliesChecker As DarkFlow.SexyCheckBox
+    Friend WithEvents ConditionalChecker As DarkFlow.SexyCheckBox
     Friend WithEvents ArgumentsList As System.Windows.Forms.ListBox
-    Friend WithEvents ArgumentsListBacker As Dark_Flow.SuperPanel
-    Friend WithEvents ImageDropper As Dark_Flow.SexyComboBox
+    Friend WithEvents ArgumentsListBacker As DarkFlow.SuperPanel
+    Friend WithEvents ImageDropper As DarkFlow.SexyComboBox
     Friend WithEvents ImageLabel As System.Windows.Forms.Label
     Friend WithEvents IconPanel As System.Windows.Forms.Panel
-    Friend WithEvents DisplayBox As Dark_Flow.SexyTextBox
+    Friend WithEvents DisplayBox As DarkFlow.SexyTextBox
     Friend WithEvents DisplayLabel As System.Windows.Forms.Label
-    Friend WithEvents NameBox As Dark_Flow.SexyTextBox
+    Friend WithEvents NameBox As DarkFlow.SexyTextBox
     Friend WithEvents NameLabel As System.Windows.Forms.Label
-    Friend WithEvents ArgumentPanel As Dark_Flow.SuperPanel
-    Friend WithEvents ArgumentAcceptButton As Dark_Flow.SexyButton
-    Friend WithEvents ArgumentTypeDropper As Dark_Flow.SexyComboBox
-    Friend WithEvents ArgumentNameBox As Dark_Flow.SexyTextBox
-    Friend WithEvents EditArgButton As Dark_Flow.SexyButton
-    Friend WithEvents DeleteArgButton As Dark_Flow.SexyButton
-    Friend WithEvents AddArgButton As Dark_Flow.SexyButton
-    Friend WithEvents BGChecker As Dark_Flow.SexyCheckBox
+    Friend WithEvents ArgumentPanel As DarkFlow.SuperPanel
+    Friend WithEvents ArgumentAcceptButton As DarkFlow.SexyButton
+    Friend WithEvents ArgumentTypeDropper As DarkFlow.SexyComboBox
+    Friend WithEvents ArgumentNameBox As DarkFlow.SexyTextBox
+    Friend WithEvents EditArgButton As DarkFlow.SexyButton
+    Friend WithEvents DeleteArgButton As DarkFlow.SexyButton
+    Friend WithEvents AddArgButton As DarkFlow.SexyButton
+    Friend WithEvents BGChecker As DarkFlow.SexyCheckBox
     Friend WithEvents CategoryLabel As System.Windows.Forms.Label
-    Friend WithEvents CategoryDropper As Dark_Flow.SexyComboBox
-    Friend WithEvents DeleteButton As Dark_Flow.SexyButton
-    Friend WithEvents AddButton As Dark_Flow.SexyButton
+    Friend WithEvents CategoryDropper As DarkFlow.SexyComboBox
+    Friend WithEvents DeleteButton As DarkFlow.SexyButton
+    Friend WithEvents AddButton As DarkFlow.SexyButton
 End Class

@@ -22,16 +22,16 @@ Partial Class FEvent
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.PointerButton = New Dark_Flow.SexyButton()
-        Me.MainPanel = New Dark_Flow.SuperPanel()
-        Me.OptionsListBacker = New Dark_Flow.SuperPanel()
+        Me.PointerButton = New DarkFlow.SexyButton()
+        Me.MainPanel = New DarkFlow.SuperPanel()
+        Me.OptionsListBacker = New DarkFlow.SuperPanel()
         Me.OptionsList = New System.Windows.Forms.ListBox()
-        Me.DAcceptButton = New Dark_Flow.SexyButton()
+        Me.DAcceptButton = New DarkFlow.SexyButton()
         Me.InfoHeaderLabel = New System.Windows.Forms.Label()
-        Me.StepButton = New Dark_Flow.SexyButton()
-        Me.InputButton = New Dark_Flow.SexyButton()
-        Me.CollisionButton = New Dark_Flow.SexyButton()
-        Me.CreateButton = New Dark_Flow.SexyButton()
+        Me.StepButton = New DarkFlow.SexyButton()
+        Me.InputButton = New DarkFlow.SexyButton()
+        Me.CollisionButton = New DarkFlow.SexyButton()
+        Me.CreateButton = New DarkFlow.SexyButton()
         Me.MainPanel.SuspendLayout()
         Me.OptionsListBacker.SuspendLayout()
         Me.SuspendLayout()
@@ -51,7 +51,7 @@ Partial Class FEvent
         Me.PointerButton.TabStop = True
         Me.PointerButton.Text = "Pointer"
         Me.PointerButton.TextImageSpacing = CType(0, Byte)
-        Me.PointerButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EventMouse
+        Me.PointerButton.XIMage = Global.DarkFlow.My.Resources.Resources.EventMouse
         '
         'MainPanel
         '
@@ -113,7 +113,7 @@ Partial Class FEvent
         Me.DAcceptButton.TabStop = True
         Me.DAcceptButton.Text = "Accept"
         Me.DAcceptButton.TextImageSpacing = CType(0, Byte)
-        Me.DAcceptButton.XIMage = Global.Dark_Flow.My.Resources.Resources.AcceptIcon
+        Me.DAcceptButton.XIMage = Global.DarkFlow.My.Resources.Resources.AcceptIcon
         '
         'InfoHeaderLabel
         '
@@ -139,7 +139,7 @@ Partial Class FEvent
         Me.StepButton.TabStop = True
         Me.StepButton.Text = "Step"
         Me.StepButton.TextImageSpacing = CType(0, Byte)
-        Me.StepButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EventStep
+        Me.StepButton.XIMage = Global.DarkFlow.My.Resources.Resources.EventStep
         '
         'InputButton
         '
@@ -156,7 +156,7 @@ Partial Class FEvent
         Me.InputButton.TabStop = True
         Me.InputButton.Text = "Input"
         Me.InputButton.TextImageSpacing = CType(0, Byte)
-        Me.InputButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EventKey
+        Me.InputButton.XIMage = Global.DarkFlow.My.Resources.Resources.EventKey
         '
         'CollisionButton
         '
@@ -173,7 +173,7 @@ Partial Class FEvent
         Me.CollisionButton.TabStop = True
         Me.CollisionButton.Text = "Collision"
         Me.CollisionButton.TextImageSpacing = CType(0, Byte)
-        Me.CollisionButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EventCollision
+        Me.CollisionButton.XIMage = Global.DarkFlow.My.Resources.Resources.EventCollision
         '
         'CreateButton
         '
@@ -190,7 +190,7 @@ Partial Class FEvent
         Me.CreateButton.TabStop = True
         Me.CreateButton.Text = "Create"
         Me.CreateButton.TextImageSpacing = CType(0, Byte)
-        Me.CreateButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EventCreate
+        Me.CreateButton.XIMage = Global.DarkFlow.My.Resources.Resources.EventCreate
         '
         'FEvent
         '
@@ -215,14 +215,14 @@ Partial Class FEvent
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents CreateButton As Dark_Flow.SexyButton
-    Friend WithEvents CollisionButton As Dark_Flow.SexyButton
-    Friend WithEvents InputButton As Dark_Flow.SexyButton
-    Friend WithEvents StepButton As Dark_Flow.SexyButton
+    Friend WithEvents CreateButton As DarkFlow.SexyButton
+    Friend WithEvents CollisionButton As DarkFlow.SexyButton
+    Friend WithEvents InputButton As DarkFlow.SexyButton
+    Friend WithEvents StepButton As DarkFlow.SexyButton
     Friend WithEvents MainPanel As SuperPanel
     Friend WithEvents InfoHeaderLabel As System.Windows.Forms.Label
-    Friend WithEvents DAcceptButton As Dark_Flow.SexyButton
-    Friend WithEvents PointerButton As Dark_Flow.SexyButton
-    Friend WithEvents OptionsListBacker As Dark_Flow.SuperPanel
+    Friend WithEvents DAcceptButton As DarkFlow.SexyButton
+    Friend WithEvents PointerButton As DarkFlow.SexyButton
+    Friend WithEvents OptionsListBacker As DarkFlow.SuperPanel
     Friend WithEvents OptionsList As System.Windows.Forms.ListBox
 End Class

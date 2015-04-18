@@ -22,18 +22,18 @@ Partial Class FPlatformInputs
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DataPanel = New Dark_Flow.SuperPanel()
-        Me.DataAcceptButton = New Dark_Flow.SexyButton()
-        Me.EditExecutorButton = New Dark_Flow.SexyButton()
-        Me.DeleteExecutorButton = New Dark_Flow.SexyButton()
-        Me.AddExecutorButton = New Dark_Flow.SexyButton()
-        Me.EditInputButton = New Dark_Flow.SexyButton()
-        Me.DeleteInputButton = New Dark_Flow.SexyButton()
-        Me.AddInputButton = New Dark_Flow.SexyButton()
-        Me.DOKButton = New Dark_Flow.SexyButton()
-        Me.MainListBacker = New Dark_Flow.SuperPanel()
+        Me.DataPanel = New DarkFlow.SuperPanel()
+        Me.DataAcceptButton = New DarkFlow.SexyButton()
+        Me.EditExecutorButton = New DarkFlow.SexyButton()
+        Me.DeleteExecutorButton = New DarkFlow.SexyButton()
+        Me.AddExecutorButton = New DarkFlow.SexyButton()
+        Me.EditInputButton = New DarkFlow.SexyButton()
+        Me.DeleteInputButton = New DarkFlow.SexyButton()
+        Me.AddInputButton = New DarkFlow.SexyButton()
+        Me.DOKButton = New DarkFlow.SexyButton()
+        Me.MainListBacker = New DarkFlow.SuperPanel()
         Me.MainList = New System.Windows.Forms.ListBox()
-        Me.SubListBacker = New Dark_Flow.SuperPanel()
+        Me.SubListBacker = New DarkFlow.SuperPanel()
         Me.SubList = New System.Windows.Forms.ListBox()
         Me.DataPanel.SuspendLayout()
         Me.MainListBacker.SuspendLayout()
@@ -69,7 +69,7 @@ Partial Class FPlatformInputs
         Me.DataAcceptButton.TabStop = True
         Me.DataAcceptButton.Text = "Accept"
         Me.DataAcceptButton.TextImageSpacing = CType(0, Byte)
-        Me.DataAcceptButton.XIMage = Global.Dark_Flow.My.Resources.Resources.AcceptIcon
+        Me.DataAcceptButton.XIMage = Global.DarkFlow.My.Resources.Resources.AcceptIcon
         '
         'EditExecutorButton
         '
@@ -85,7 +85,7 @@ Partial Class FPlatformInputs
         Me.EditExecutorButton.TabIndex = 29
         Me.EditExecutorButton.TabStop = True
         Me.EditExecutorButton.TextImageSpacing = CType(0, Byte)
-        Me.EditExecutorButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EditIcon
+        Me.EditExecutorButton.XIMage = Global.DarkFlow.My.Resources.Resources.EditIcon
         '
         'DeleteExecutorButton
         '
@@ -101,7 +101,7 @@ Partial Class FPlatformInputs
         Me.DeleteExecutorButton.TabIndex = 28
         Me.DeleteExecutorButton.TabStop = True
         Me.DeleteExecutorButton.TextImageSpacing = CType(0, Byte)
-        Me.DeleteExecutorButton.XIMage = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteExecutorButton.XIMage = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         '
         'AddExecutorButton
         '
@@ -117,7 +117,7 @@ Partial Class FPlatformInputs
         Me.AddExecutorButton.TabIndex = 27
         Me.AddExecutorButton.TabStop = True
         Me.AddExecutorButton.TextImageSpacing = CType(0, Byte)
-        Me.AddExecutorButton.XIMage = Global.Dark_Flow.My.Resources.Resources.AddIcon
+        Me.AddExecutorButton.XIMage = Global.DarkFlow.My.Resources.Resources.AddIcon
         '
         'EditInputButton
         '
@@ -133,7 +133,7 @@ Partial Class FPlatformInputs
         Me.EditInputButton.TabIndex = 26
         Me.EditInputButton.TabStop = True
         Me.EditInputButton.TextImageSpacing = CType(0, Byte)
-        Me.EditInputButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EditIcon
+        Me.EditInputButton.XIMage = Global.DarkFlow.My.Resources.Resources.EditIcon
         '
         'DeleteInputButton
         '
@@ -149,7 +149,7 @@ Partial Class FPlatformInputs
         Me.DeleteInputButton.TabIndex = 25
         Me.DeleteInputButton.TabStop = True
         Me.DeleteInputButton.TextImageSpacing = CType(0, Byte)
-        Me.DeleteInputButton.XIMage = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteInputButton.XIMage = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         '
         'AddInputButton
         '
@@ -165,7 +165,7 @@ Partial Class FPlatformInputs
         Me.AddInputButton.TabIndex = 24
         Me.AddInputButton.TabStop = True
         Me.AddInputButton.TextImageSpacing = CType(0, Byte)
-        Me.AddInputButton.XIMage = Global.Dark_Flow.My.Resources.Resources.AddIcon
+        Me.AddInputButton.XIMage = Global.DarkFlow.My.Resources.Resources.AddIcon
         '
         'DOKButton
         '
@@ -265,17 +265,17 @@ Partial Class FPlatformInputs
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents MainListBacker As Dark_Flow.SuperPanel
+    Friend WithEvents MainListBacker As DarkFlow.SuperPanel
     Friend WithEvents MainList As System.Windows.Forms.ListBox
-    Friend WithEvents SubListBacker As Dark_Flow.SuperPanel
+    Friend WithEvents SubListBacker As DarkFlow.SuperPanel
     Friend WithEvents SubList As System.Windows.Forms.ListBox
-    Friend WithEvents DOKButton As Dark_Flow.SexyButton
-    Friend WithEvents EditInputButton As Dark_Flow.SexyButton
-    Friend WithEvents DeleteInputButton As Dark_Flow.SexyButton
-    Friend WithEvents AddInputButton As Dark_Flow.SexyButton
-    Friend WithEvents EditExecutorButton As Dark_Flow.SexyButton
-    Friend WithEvents DeleteExecutorButton As Dark_Flow.SexyButton
-    Friend WithEvents AddExecutorButton As Dark_Flow.SexyButton
-    Friend WithEvents DataPanel As Dark_Flow.SuperPanel
-    Friend WithEvents DataAcceptButton As Dark_Flow.SexyButton
+    Friend WithEvents DOKButton As DarkFlow.SexyButton
+    Friend WithEvents EditInputButton As DarkFlow.SexyButton
+    Friend WithEvents DeleteInputButton As DarkFlow.SexyButton
+    Friend WithEvents AddInputButton As DarkFlow.SexyButton
+    Friend WithEvents EditExecutorButton As DarkFlow.SexyButton
+    Friend WithEvents DeleteExecutorButton As DarkFlow.SexyButton
+    Friend WithEvents AddExecutorButton As DarkFlow.SexyButton
+    Friend WithEvents DataPanel As DarkFlow.SuperPanel
+    Friend WithEvents DataAcceptButton As DarkFlow.SexyButton
 End Class

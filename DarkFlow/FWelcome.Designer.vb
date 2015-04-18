@@ -22,11 +22,11 @@ Partial Class FWelcome
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ExamplesGrouper = New Dark_Flow.SexyGroupBox()
-        Me.SuperPanel1 = New Dark_Flow.SuperPanel()
+        Me.ExamplesGrouper = New DarkFlow.SexyGroupBox()
+        Me.SuperPanel1 = New DarkFlow.SuperPanel()
         Me.ExamplesList = New System.Windows.Forms.ListBox()
-        Me.OpenExampleButton = New Dark_Flow.SexyButton()
-        Me.OpenLastProjectButton = New Dark_Flow.SexyButton()
+        Me.OpenExampleButton = New DarkFlow.SexyButton()
+        Me.OpenLastProjectButton = New DarkFlow.SexyButton()
         Me.ExamplesGrouper.SuspendLayout()
         Me.SuperPanel1.SuspendLayout()
         Me.SuspendLayout()
@@ -102,7 +102,7 @@ Partial Class FWelcome
         Me.OpenLastProjectButton.TabStop = True
         Me.OpenLastProjectButton.Text = "  Open Last Project"
         Me.OpenLastProjectButton.TextImageSpacing = CType(0, Byte)
-        Me.OpenLastProjectButton.XIMage = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.OpenLastProjectButton.XIMage = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         '
         'FWelcome
         '
@@ -122,9 +122,9 @@ Partial Class FWelcome
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents OpenExampleButton As Dark_Flow.SexyButton
-    Friend WithEvents OpenLastProjectButton As Dark_Flow.SexyButton
-    Friend WithEvents ExamplesGrouper As Dark_Flow.SexyGroupBox
-    Friend WithEvents SuperPanel1 As Dark_Flow.SuperPanel
+    Friend WithEvents OpenExampleButton As DarkFlow.SexyButton
+    Friend WithEvents OpenLastProjectButton As DarkFlow.SexyButton
+    Friend WithEvents ExamplesGrouper As DarkFlow.SexyGroupBox
+    Friend WithEvents SuperPanel1 As DarkFlow.SuperPanel
     Friend WithEvents ExamplesList As System.Windows.Forms.ListBox
 End Class

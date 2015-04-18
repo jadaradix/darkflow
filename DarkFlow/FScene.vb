@@ -331,11 +331,11 @@
         ViewHeight = ViewHeightSelector.Value
         ViewX = ViewXSelector.Value
         ViewY = ViewYSelector.Value
-        If DirectCast(sender, Dark_Flow.SexyNumeric).Name.StartsWith("Scene") Then
+        If DirectCast(sender, DarkFlow.SexyNumeric).Name.StartsWith("Scene") Then
             DesignPanel.AutoScrollMinSize = New Size(DWidth, DHeight)
             DesignPanel.Invalidate()
         End If
-        If DirectCast(sender, Dark_Flow.SexyNumeric).Name.StartsWith("View") Then
+        If DirectCast(sender, DarkFlow.SexyNumeric).Name.StartsWith("View") Then
             DesignPanel.Invalidate()
         End If
     End Sub

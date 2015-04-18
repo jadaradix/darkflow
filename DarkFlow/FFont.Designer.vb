@@ -26,19 +26,19 @@ Partial Class FFont
         Me.DAcceptButton = New System.Windows.Forms.ToolStripButton()
         Me.TSS1 = New System.Windows.Forms.ToolStripSeparator()
         Me.DCancelButton = New System.Windows.Forms.ToolStripButton()
-        Me.PreviewPlace = New Dark_Flow.DoubleBufferPanel()
-        Me.PreviewHolder = New Dark_Flow.DoubleBufferPanel()
-        Me.Controlbar = New Dark_Flow.DoubleBufferPanel()
-        Me.AntialiasCheck = New Dark_Flow.SexyCheckBox()
-        Me.ItalicCheck = New Dark_Flow.SexyCheckBox()
-        Me.BoldCheck = New Dark_Flow.SexyCheckBox()
-        Me.FontDropper = New Dark_Flow.SexyComboBox()
-        Me.FontSize = New Dark_Flow.SexyNumeric()
+        Me.PreviewPlace = New DarkFlow.DoubleBufferPanel()
+        Me.PreviewHolder = New DarkFlow.DoubleBufferPanel()
+        Me.Controlbar = New DarkFlow.DoubleBufferPanel()
+        Me.AntialiasCheck = New DarkFlow.SexyCheckBox()
+        Me.ItalicCheck = New DarkFlow.SexyCheckBox()
+        Me.BoldCheck = New DarkFlow.SexyCheckBox()
+        Me.FontDropper = New DarkFlow.SexyComboBox()
+        Me.FontSize = New DarkFlow.SexyNumeric()
         Me.FontSizeLabel = New System.Windows.Forms.Label()
         Me.BaseFontLabel = New System.Windows.Forms.Label()
-        Me.TileHeight = New Dark_Flow.SexyNumeric()
+        Me.TileHeight = New DarkFlow.SexyNumeric()
         Me.TileHeightLabel = New System.Windows.Forms.Label()
-        Me.TileWidth = New Dark_Flow.SexyNumeric()
+        Me.TileWidth = New DarkFlow.SexyNumeric()
         Me.TileWidthLabel = New System.Windows.Forms.Label()
         Me.MainToolStrip.SuspendLayout()
         Me.PreviewPlace.SuspendLayout()
@@ -56,7 +56,7 @@ Partial Class FFont
         '
         'DAcceptButton
         '
-        Me.DAcceptButton.Image = Global.Dark_Flow.My.Resources.Resources.AcceptIcon
+        Me.DAcceptButton.Image = Global.DarkFlow.My.Resources.Resources.AcceptIcon
         Me.DAcceptButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DAcceptButton.Name = "DAcceptButton"
         Me.DAcceptButton.Size = New System.Drawing.Size(64, 22)
@@ -79,7 +79,7 @@ Partial Class FFont
         '
         Me.PreviewPlace.AutoScroll = True
         Me.PreviewPlace.BackColor = System.Drawing.Color.Transparent
-        Me.PreviewPlace.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.TranspBack
+        Me.PreviewPlace.BackgroundImage = Global.DarkFlow.My.Resources.Resources.TranspBack
         Me.PreviewPlace.Controls.Add(Me.PreviewHolder)
         Me.PreviewPlace.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PreviewPlace.Location = New System.Drawing.Point(0, 115)
@@ -98,7 +98,7 @@ Partial Class FFont
         '
         'Controlbar
         '
-        Me.Controlbar.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.InverseGradient
+        Me.Controlbar.BackgroundImage = Global.DarkFlow.My.Resources.Resources.InverseGradient
         Me.Controlbar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Controlbar.Controls.Add(Me.AntialiasCheck)
         Me.Controlbar.Controls.Add(Me.ItalicCheck)
@@ -157,7 +157,7 @@ Partial Class FFont
         '
         Me.FontDropper.BackColor = System.Drawing.Color.Transparent
         Me.FontDropper.BorderColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.FontDropper.Image = Global.Dark_Flow.My.Resources.Resources.font
+        Me.FontDropper.Image = Global.DarkFlow.My.Resources.Resources.font
         Me.FontDropper.Location = New System.Drawing.Point(240, 14)
         Me.FontDropper.Name = "FontDropper"
         Me.FontDropper.ShadowColor = System.Drawing.Color.FromArgb(CType(CType(72, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(72, Byte), Integer))
@@ -277,18 +277,18 @@ Partial Class FFont
     Friend WithEvents DAcceptButton As System.Windows.Forms.ToolStripButton
     Friend WithEvents TSS1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents DCancelButton As System.Windows.Forms.ToolStripButton
-    Friend WithEvents Controlbar As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents ItalicCheck As Dark_Flow.SexyCheckBox
-    Friend WithEvents BoldCheck As Dark_Flow.SexyCheckBox
-    Friend WithEvents FontDropper As Dark_Flow.SexyComboBox
-    Friend WithEvents FontSize As Dark_Flow.SexyNumeric
+    Friend WithEvents Controlbar As DarkFlow.DoubleBufferPanel
+    Friend WithEvents ItalicCheck As DarkFlow.SexyCheckBox
+    Friend WithEvents BoldCheck As DarkFlow.SexyCheckBox
+    Friend WithEvents FontDropper As DarkFlow.SexyComboBox
+    Friend WithEvents FontSize As DarkFlow.SexyNumeric
     Friend WithEvents FontSizeLabel As System.Windows.Forms.Label
     Friend WithEvents BaseFontLabel As System.Windows.Forms.Label
-    Friend WithEvents TileHeight As Dark_Flow.SexyNumeric
+    Friend WithEvents TileHeight As DarkFlow.SexyNumeric
     Friend WithEvents TileHeightLabel As System.Windows.Forms.Label
-    Friend WithEvents TileWidth As Dark_Flow.SexyNumeric
+    Friend WithEvents TileWidth As DarkFlow.SexyNumeric
     Friend WithEvents TileWidthLabel As System.Windows.Forms.Label
-    Friend WithEvents PreviewPlace As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents PreviewHolder As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents AntialiasCheck As Dark_Flow.SexyCheckBox
+    Friend WithEvents PreviewPlace As DarkFlow.DoubleBufferPanel
+    Friend WithEvents PreviewHolder As DarkFlow.DoubleBufferPanel
+    Friend WithEvents AntialiasCheck As DarkFlow.SexyCheckBox
 End Class

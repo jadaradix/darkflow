@@ -22,24 +22,24 @@ Partial Class FOptions
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.MainTabber = New Dark_Flow.SexyTabControl()
+        Me.MainTabber = New DarkFlow.SexyTabControl()
         Me.GeneralTab = New System.Windows.Forms.TabPage()
-        Me.AutoSave_Checker = New Dark_Flow.SexyCheckBox()
-        Me.WelcomeOnBootChecker = New Dark_Flow.SexyCheckBox()
-        Me.ShrinkActionsListChecker = New Dark_Flow.SexyCheckBox()
+        Me.AutoSave_Checker = New DarkFlow.SexyCheckBox()
+        Me.WelcomeOnBootChecker = New DarkFlow.SexyCheckBox()
+        Me.ShrinkActionsListChecker = New DarkFlow.SexyCheckBox()
         Me.BrowserTab = New System.Windows.Forms.TabPage()
-        Me.BrowsersListBacker = New Dark_Flow.SuperPanel()
+        Me.BrowsersListBacker = New DarkFlow.SuperPanel()
         Me.BrowsersList = New System.Windows.Forms.ListBox()
         Me.PreferredBrowserLabel = New System.Windows.Forms.Label()
         Me.EditorsTab = New System.Windows.Forms.TabPage()
-        Me.AlphaCapableChecker = New Dark_Flow.SexyCheckBox()
-        Me.SoundEditorButton = New Dark_Flow.SexyButton()
-        Me.SoundEditorBox = New Dark_Flow.SexyTextBox()
+        Me.AlphaCapableChecker = New DarkFlow.SexyCheckBox()
+        Me.SoundEditorButton = New DarkFlow.SexyButton()
+        Me.SoundEditorBox = New DarkFlow.SexyTextBox()
         Me.SoundEditorLabel = New System.Windows.Forms.Label()
-        Me.ImageEditorButton = New Dark_Flow.SexyButton()
-        Me.ImageEditorBox = New Dark_Flow.SexyTextBox()
+        Me.ImageEditorButton = New DarkFlow.SexyButton()
+        Me.ImageEditorBox = New DarkFlow.SexyTextBox()
         Me.ImageEditorLabel = New System.Windows.Forms.Label()
-        Me.DOKButton = New Dark_Flow.SexyButton()
+        Me.DOKButton = New DarkFlow.SexyButton()
         Me.MainTabber.SuspendLayout()
         Me.GeneralTab.SuspendLayout()
         Me.BrowserTab.SuspendLayout()
@@ -197,7 +197,7 @@ Partial Class FOptions
         Me.SoundEditorButton.TabIndex = 10
         Me.SoundEditorButton.TabStop = True
         Me.SoundEditorButton.TextImageSpacing = CType(0, Byte)
-        Me.SoundEditorButton.XIMage = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.SoundEditorButton.XIMage = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         '
         'SoundEditorBox
         '
@@ -237,7 +237,7 @@ Partial Class FOptions
         Me.ImageEditorButton.TabIndex = 7
         Me.ImageEditorButton.TabStop = True
         Me.ImageEditorButton.TextImageSpacing = CType(0, Byte)
-        Me.ImageEditorButton.XIMage = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.ImageEditorButton.XIMage = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         '
         'ImageEditorBox
         '
@@ -304,22 +304,22 @@ Partial Class FOptions
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents MainTabber As Dark_Flow.SexyTabControl
+    Friend WithEvents MainTabber As DarkFlow.SexyTabControl
     Friend WithEvents BrowserTab As System.Windows.Forms.TabPage
     Friend WithEvents BrowsersList As System.Windows.Forms.ListBox
     Friend WithEvents PreferredBrowserLabel As System.Windows.Forms.Label
-    Friend WithEvents DOKButton As Dark_Flow.SexyButton
+    Friend WithEvents DOKButton As DarkFlow.SexyButton
     Friend WithEvents EditorsTab As System.Windows.Forms.TabPage
-    Friend WithEvents ImageEditorBox As Dark_Flow.SexyTextBox
+    Friend WithEvents ImageEditorBox As DarkFlow.SexyTextBox
     Friend WithEvents ImageEditorLabel As System.Windows.Forms.Label
-    Friend WithEvents ImageEditorButton As Dark_Flow.SexyButton
-    Friend WithEvents SoundEditorButton As Dark_Flow.SexyButton
-    Friend WithEvents SoundEditorBox As Dark_Flow.SexyTextBox
+    Friend WithEvents ImageEditorButton As DarkFlow.SexyButton
+    Friend WithEvents SoundEditorButton As DarkFlow.SexyButton
+    Friend WithEvents SoundEditorBox As DarkFlow.SexyTextBox
     Friend WithEvents SoundEditorLabel As System.Windows.Forms.Label
-    Friend WithEvents AlphaCapableChecker As Dark_Flow.SexyCheckBox
+    Friend WithEvents AlphaCapableChecker As DarkFlow.SexyCheckBox
     Friend WithEvents GeneralTab As System.Windows.Forms.TabPage
-    Friend WithEvents BrowsersListBacker As Dark_Flow.SuperPanel
-    Friend WithEvents ShrinkActionsListChecker As Dark_Flow.SexyCheckBox
-    Friend WithEvents WelcomeOnBootChecker As Dark_Flow.SexyCheckBox
-    Friend WithEvents AutoSave_Checker As Dark_Flow.SexyCheckBox
+    Friend WithEvents BrowsersListBacker As DarkFlow.SuperPanel
+    Friend WithEvents ShrinkActionsListChecker As DarkFlow.SexyCheckBox
+    Friend WithEvents WelcomeOnBootChecker As DarkFlow.SexyCheckBox
+    Friend WithEvents AutoSave_Checker As DarkFlow.SexyCheckBox
 End Class

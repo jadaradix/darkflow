@@ -52,7 +52,7 @@ Partial Class FEditCode
         '
         'DAcceptButton
         '
-        Me.DAcceptButton.Image = Global.Dark_Flow.My.Resources.Resources.AcceptIcon
+        Me.DAcceptButton.Image = Global.DarkFlow.My.Resources.Resources.AcceptIcon
         Me.DAcceptButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DAcceptButton.Name = "DAcceptButton"
         Me.DAcceptButton.Size = New System.Drawing.Size(64, 22)
@@ -65,7 +65,7 @@ Partial Class FEditCode
         '
         'LoadInButton
         '
-        Me.LoadInButton.Image = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.LoadInButton.Image = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         Me.LoadInButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.LoadInButton.Name = "LoadInButton"
         Me.LoadInButton.Size = New System.Drawing.Size(75, 22)
@@ -73,7 +73,7 @@ Partial Class FEditCode
         '
         'SaveOutButton
         '
-        Me.SaveOutButton.Image = Global.Dark_Flow.My.Resources.Resources.SaveFileIcon
+        Me.SaveOutButton.Image = Global.DarkFlow.My.Resources.Resources.SaveFileIcon
         Me.SaveOutButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.SaveOutButton.Name = "SaveOutButton"
         Me.SaveOutButton.Size = New System.Drawing.Size(83, 22)

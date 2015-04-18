@@ -7,8 +7,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{20BDA89A-7279-4DB0-A2D1-8631DEC8531E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Dark_Flow.My.MyApplication</StartupObject>
-    <RootNamespace>Dark_Flow</RootNamespace>
+    <StartupObject>DarkFlow.My.MyApplication</StartupObject>
+    <RootNamespace>DarkFlow</RootNamespace>
     <AssemblyName>Dark Flow</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
@@ -43,7 +43,7 @@
     <DefineDebug>True</DefineDebug>
     <DefineTrace>True</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Dark Flow.xml</DocumentationFile>
+    <DocumentationFile>DarkFlow.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <AdditionalParameters />
     <Prefer32Bit>false</Prefer32Bit>
@@ -54,7 +54,7 @@
     <DefineTrace>True</DefineTrace>
     <Optimize>True</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Dark Flow.xml</DocumentationFile>
+    <DocumentationFile>DarkFlow.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
     <AdditionalParameters />
     <Prefer32Bit>false</Prefer32Bit>

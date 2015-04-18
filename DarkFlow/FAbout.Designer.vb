@@ -27,17 +27,17 @@ Partial Class FAbout
         Me.MainContainerPanel = New System.Windows.Forms.Panel()
         Me.SevenZipLicenseLabel = New System.Windows.Forms.Label()
         Me.CopyrightLabel = New System.Windows.Forms.Label()
-        Me.View7ZipLicenseButton = New Dark_Flow.SexyButton()
-        Me.ViewLicenseButton = New Dark_Flow.SexyButton()
+        Me.View7ZipLicenseButton = New DarkFlow.SexyButton()
+        Me.ViewLicenseButton = New DarkFlow.SexyButton()
         Me.AboutLabel = New System.Windows.Forms.Label()
         Me.WrittenByLabel = New System.Windows.Forms.Label()
-        Me.DOKButton = New Dark_Flow.SexyButton()
+        Me.DOKButton = New DarkFlow.SexyButton()
         Me.MainContainerPanel.SuspendLayout()
         Me.SuspendLayout()
         '
         'ImagePanel
         '
-        Me.ImagePanel.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.AboutBanner
+        Me.ImagePanel.BackgroundImage = Global.DarkFlow.My.Resources.Resources.AboutBanner
         Me.ImagePanel.Location = New System.Drawing.Point(0, 0)
         Me.ImagePanel.Name = "ImagePanel"
         Me.ImagePanel.Size = New System.Drawing.Size(340, 100)
@@ -162,12 +162,12 @@ Partial Class FAbout
 
     End Sub
     Friend WithEvents ImagePanel As System.Windows.Forms.Panel
-    Friend WithEvents DOKButton As Dark_Flow.SexyButton
+    Friend WithEvents DOKButton As DarkFlow.SexyButton
     Friend WithEvents MainContainerPanel As System.Windows.Forms.Panel
     Friend WithEvents WrittenByLabel As System.Windows.Forms.Label
     Friend WithEvents AboutLabel As System.Windows.Forms.Label
-    Friend WithEvents View7ZipLicenseButton As Dark_Flow.SexyButton
-    Friend WithEvents ViewLicenseButton As Dark_Flow.SexyButton
+    Friend WithEvents View7ZipLicenseButton As DarkFlow.SexyButton
+    Friend WithEvents ViewLicenseButton As DarkFlow.SexyButton
     Friend WithEvents CopyrightLabel As System.Windows.Forms.Label
     Friend WithEvents SevenZipLicenseLabel As System.Windows.Forms.Label
 End Class

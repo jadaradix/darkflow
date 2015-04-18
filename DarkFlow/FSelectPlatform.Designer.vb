@@ -23,7 +23,7 @@ Partial Class FSelectPlatform
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.HeaderPanel = New System.Windows.Forms.Panel()
-        Me.DCancelButton = New Dark_Flow.SexyButton()
+        Me.DCancelButton = New DarkFlow.SexyButton()
         Me.TitleLabel = New System.Windows.Forms.Label()
         Me.BrowserHeaderLabel = New System.Windows.Forms.Label()
         Me.RunnerHeaderLabel = New System.Windows.Forms.Label()
@@ -123,5 +123,5 @@ Partial Class FSelectPlatform
     Friend WithEvents TitleLabel As System.Windows.Forms.Label
     Friend WithEvents BrowserHeaderLabel As System.Windows.Forms.Label
     Friend WithEvents RunnerHeaderLabel As System.Windows.Forms.Label
-    Friend WithEvents DCancelButton As Dark_Flow.SexyButton
+    Friend WithEvents DCancelButton As DarkFlow.SexyButton
 End Class

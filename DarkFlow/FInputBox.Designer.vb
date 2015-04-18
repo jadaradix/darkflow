@@ -22,9 +22,9 @@ Partial Class FInputBox
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DCancelButton = New Dark_Flow.SexyButton()
-        Me.DOkayButton = New Dark_Flow.SexyButton()
-        Me.MainTextBox = New Dark_Flow.SexyTextBox()
+        Me.DCancelButton = New DarkFlow.SexyButton()
+        Me.DOkayButton = New DarkFlow.SexyButton()
+        Me.MainTextBox = New DarkFlow.SexyTextBox()
         Me.DescriptionLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '

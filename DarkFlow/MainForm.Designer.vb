@@ -77,7 +77,7 @@ Partial Class MainForm
         Me.HelpDropper = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutMenuButton = New System.Windows.Forms.ToolStripMenuItem()
         Me.TreeHolder = New System.Windows.Forms.Panel()
-        Me.ResourcesList = New Dark_Flow.SexyTree()
+        Me.ResourcesList = New DarkFlow.SexyTree()
         Me.ResourceRightClicker = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.AddResourceContextButton = New System.Windows.Forms.ToolStripMenuItem()
         Me.EditResourceContextButton = New System.Windows.Forms.ToolStripMenuItem()
@@ -85,7 +85,7 @@ Partial Class MainForm
         Me.Glosser = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.StripsContainer = New System.Windows.Forms.Panel()
-        Me.MainSplitter = New Dark_Flow.SexySplitter()
+        Me.MainSplitter = New DarkFlow.SexySplitter()
         Me.PrimaryToolStrip.SuspendLayout()
         Me.DMainMenuStrip.SuspendLayout()
         Me.TreeHolder.SuspendLayout()
@@ -117,7 +117,7 @@ Partial Class MainForm
         'NewButton
         '
         Me.NewButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.NewButton.Image = Global.Dark_Flow.My.Resources.Resources.NewFileIcon
+        Me.NewButton.Image = Global.DarkFlow.My.Resources.Resources.NewFileIcon
         Me.NewButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.NewButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.NewButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -128,7 +128,7 @@ Partial Class MainForm
         'OpenButton
         '
         Me.OpenButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.OpenButton.Image = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.OpenButton.Image = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         Me.OpenButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.OpenButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.OpenButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -139,7 +139,7 @@ Partial Class MainForm
         'SaveButton
         '
         Me.SaveButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.SaveButton.Image = Global.Dark_Flow.My.Resources.Resources.SaveFileIcon
+        Me.SaveButton.Image = Global.DarkFlow.My.Resources.Resources.SaveFileIcon
         Me.SaveButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.SaveButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.SaveButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -155,7 +155,7 @@ Partial Class MainForm
         '
         'PlayButton
         '
-        Me.PlayButton.Image = Global.Dark_Flow.My.Resources.Resources.PlayIcon
+        Me.PlayButton.Image = Global.DarkFlow.My.Resources.Resources.PlayIcon
         Me.PlayButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.PlayButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.PlayButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -171,7 +171,7 @@ Partial Class MainForm
         '
         'GameSettingsButton
         '
-        Me.GameSettingsButton.Image = Global.Dark_Flow.My.Resources.Resources.SettingsIcon
+        Me.GameSettingsButton.Image = Global.DarkFlow.My.Resources.Resources.SettingsIcon
         Me.GameSettingsButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.GameSettingsButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.GameSettingsButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -181,7 +181,7 @@ Partial Class MainForm
         '
         'PlatformInputsButton
         '
-        Me.PlatformInputsButton.Image = Global.Dark_Flow.My.Resources.Resources.JoyStick
+        Me.PlatformInputsButton.Image = Global.DarkFlow.My.Resources.Resources.JoyStick
         Me.PlatformInputsButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.PlatformInputsButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.PlatformInputsButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -198,7 +198,7 @@ Partial Class MainForm
         'AddImageButton
         '
         Me.AddImageButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.AddImageButton.Image = Global.Dark_Flow.My.Resources.Resources.ImageIcon
+        Me.AddImageButton.Image = Global.DarkFlow.My.Resources.Resources.ImageIcon
         Me.AddImageButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AddImageButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.AddImageButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -209,7 +209,7 @@ Partial Class MainForm
         'AddObjectButton
         '
         Me.AddObjectButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.AddObjectButton.Image = Global.Dark_Flow.My.Resources.Resources.ObjectIcon
+        Me.AddObjectButton.Image = Global.DarkFlow.My.Resources.Resources.ObjectIcon
         Me.AddObjectButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AddObjectButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.AddObjectButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -220,7 +220,7 @@ Partial Class MainForm
         'AddSceneButton
         '
         Me.AddSceneButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.AddSceneButton.Image = Global.Dark_Flow.My.Resources.Resources.SceneIcon
+        Me.AddSceneButton.Image = Global.DarkFlow.My.Resources.Resources.SceneIcon
         Me.AddSceneButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AddSceneButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.AddSceneButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -231,7 +231,7 @@ Partial Class MainForm
         'AddSoundButton
         '
         Me.AddSoundButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.AddSoundButton.Image = Global.Dark_Flow.My.Resources.Resources.SoundIcon
+        Me.AddSoundButton.Image = Global.DarkFlow.My.Resources.Resources.SoundIcon
         Me.AddSoundButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.AddSoundButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.AddSoundButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -247,7 +247,7 @@ Partial Class MainForm
         '
         'OptionsButton
         '
-        Me.OptionsButton.Image = Global.Dark_Flow.My.Resources.Resources.OptionsIcon
+        Me.OptionsButton.Image = Global.DarkFlow.My.Resources.Resources.OptionsIcon
         Me.OptionsButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.OptionsButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.OptionsButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -286,7 +286,7 @@ Partial Class MainForm
         '
         Me.ArraysButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ArraysButton.Enabled = False
-        Me.ArraysButton.Image = Global.Dark_Flow.My.Resources.Resources.ArrayIcon
+        Me.ArraysButton.Image = Global.DarkFlow.My.Resources.Resources.ArrayIcon
         Me.ArraysButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ArraysButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ArraysButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -299,7 +299,7 @@ Partial Class MainForm
         '
         Me.ManageStructuresButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.ManageStructuresButton.Enabled = False
-        Me.ManageStructuresButton.Image = Global.Dark_Flow.My.Resources.Resources.ArrayIcon
+        Me.ManageStructuresButton.Image = Global.DarkFlow.My.Resources.Resources.ArrayIcon
         Me.ManageStructuresButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.ManageStructuresButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ManageStructuresButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -312,7 +312,7 @@ Partial Class MainForm
         '
         Me.StoreButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
         Me.StoreButton.Enabled = False
-        Me.StoreButton.Image = Global.Dark_Flow.My.Resources.Resources.BuyIcon
+        Me.StoreButton.Image = Global.DarkFlow.My.Resources.Resources.BuyIcon
         Me.StoreButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
         Me.StoreButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.StoreButton.Margin = New System.Windows.Forms.Padding(0, -2, 0, 0)
@@ -343,7 +343,7 @@ Partial Class MainForm
         '
         'NewMenuButton
         '
-        Me.NewMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.NewFileIcon
+        Me.NewMenuButton.Image = Global.DarkFlow.My.Resources.Resources.NewFileIcon
         Me.NewMenuButton.Name = "NewMenuButton"
         Me.NewMenuButton.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
         Me.NewMenuButton.Size = New System.Drawing.Size(155, 22)
@@ -351,7 +351,7 @@ Partial Class MainForm
         '
         'OpenMenuButton
         '
-        Me.OpenMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.OpenMenuButton.Image = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         Me.OpenMenuButton.Name = "OpenMenuButton"
         Me.OpenMenuButton.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
         Me.OpenMenuButton.Size = New System.Drawing.Size(155, 22)
@@ -359,7 +359,7 @@ Partial Class MainForm
         '
         'SaveMenuButton
         '
-        Me.SaveMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.SaveFileIcon
+        Me.SaveMenuButton.Image = Global.DarkFlow.My.Resources.Resources.SaveFileIcon
         Me.SaveMenuButton.Name = "SaveMenuButton"
         Me.SaveMenuButton.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
         Me.SaveMenuButton.Size = New System.Drawing.Size(155, 22)
@@ -367,7 +367,7 @@ Partial Class MainForm
         '
         'SaveAsMenuButton
         '
-        Me.SaveAsMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.SaveAsIcon
+        Me.SaveAsMenuButton.Image = Global.DarkFlow.My.Resources.Resources.SaveAsIcon
         Me.SaveAsMenuButton.Name = "SaveAsMenuButton"
         Me.SaveAsMenuButton.Size = New System.Drawing.Size(155, 22)
         Me.SaveAsMenuButton.Text = "Save As..."
@@ -381,7 +381,7 @@ Partial Class MainForm
         '
         'PlayMenuButton
         '
-        Me.PlayMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.PlayIcon
+        Me.PlayMenuButton.Image = Global.DarkFlow.My.Resources.Resources.PlayIcon
         Me.PlayMenuButton.Name = "PlayMenuButton"
         Me.PlayMenuButton.ShortcutKeys = System.Windows.Forms.Keys.F5
         Me.PlayMenuButton.Size = New System.Drawing.Size(165, 22)
@@ -394,28 +394,28 @@ Partial Class MainForm
         '
         'AddImageMenuButton
         '
-        Me.AddImageMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.ImageIcon
+        Me.AddImageMenuButton.Image = Global.DarkFlow.My.Resources.Resources.ImageIcon
         Me.AddImageMenuButton.Name = "AddImageMenuButton"
         Me.AddImageMenuButton.Size = New System.Drawing.Size(165, 22)
         Me.AddImageMenuButton.Text = "Add Image"
         '
         'AddObjectMenuButton
         '
-        Me.AddObjectMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.ObjectIcon
+        Me.AddObjectMenuButton.Image = Global.DarkFlow.My.Resources.Resources.ObjectIcon
         Me.AddObjectMenuButton.Name = "AddObjectMenuButton"
         Me.AddObjectMenuButton.Size = New System.Drawing.Size(165, 22)
         Me.AddObjectMenuButton.Text = "Add Object"
         '
         'AddSceneMenuButton
         '
-        Me.AddSceneMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.SceneIcon
+        Me.AddSceneMenuButton.Image = Global.DarkFlow.My.Resources.Resources.SceneIcon
         Me.AddSceneMenuButton.Name = "AddSceneMenuButton"
         Me.AddSceneMenuButton.Size = New System.Drawing.Size(165, 22)
         Me.AddSceneMenuButton.Text = "Add Scene"
         '
         'AddSoundMenuButton
         '
-        Me.AddSoundMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.SoundIcon
+        Me.AddSoundMenuButton.Image = Global.DarkFlow.My.Resources.Resources.SoundIcon
         Me.AddSoundMenuButton.Name = "AddSoundMenuButton"
         Me.AddSoundMenuButton.Size = New System.Drawing.Size(165, 22)
         Me.AddSoundMenuButton.Text = "Add Sound"
@@ -465,14 +465,14 @@ Partial Class MainForm
         '
         'PlatformInputsMenuButton
         '
-        Me.PlatformInputsMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.JoyStick
+        Me.PlatformInputsMenuButton.Image = Global.DarkFlow.My.Resources.Resources.JoyStick
         Me.PlatformInputsMenuButton.Name = "PlatformInputsMenuButton"
         Me.PlatformInputsMenuButton.Size = New System.Drawing.Size(165, 22)
         Me.PlatformInputsMenuButton.Text = "Platform Inputs..."
         '
         'GameSettingsMenuButton
         '
-        Me.GameSettingsMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.SettingsIcon
+        Me.GameSettingsMenuButton.Image = Global.DarkFlow.My.Resources.Resources.SettingsIcon
         Me.GameSettingsMenuButton.Name = "GameSettingsMenuButton"
         Me.GameSettingsMenuButton.Size = New System.Drawing.Size(165, 22)
         Me.GameSettingsMenuButton.Text = "Settings..."
@@ -486,14 +486,14 @@ Partial Class MainForm
         '
         'ActionEditorMenuButton
         '
-        Me.ActionEditorMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.ActionIcon
+        Me.ActionEditorMenuButton.Image = Global.DarkFlow.My.Resources.Resources.ActionIcon
         Me.ActionEditorMenuButton.Name = "ActionEditorMenuButton"
         Me.ActionEditorMenuButton.Size = New System.Drawing.Size(201, 22)
         Me.ActionEditorMenuButton.Text = "Action Editor..."
         '
         'OptionsMenuButton
         '
-        Me.OptionsMenuButton.Image = Global.Dark_Flow.My.Resources.Resources.OptionsIcon
+        Me.OptionsMenuButton.Image = Global.DarkFlow.My.Resources.Resources.OptionsIcon
         Me.OptionsMenuButton.Name = "OptionsMenuButton"
         Me.OptionsMenuButton.Size = New System.Drawing.Size(201, 22)
         Me.OptionsMenuButton.Text = "Options..."
@@ -569,7 +569,7 @@ Partial Class MainForm
         'AddResourceContextButton
         '
         Me.AddResourceContextButton.Enabled = False
-        Me.AddResourceContextButton.Image = Global.Dark_Flow.My.Resources.Resources.AddIcon
+        Me.AddResourceContextButton.Image = Global.DarkFlow.My.Resources.Resources.AddIcon
         Me.AddResourceContextButton.Name = "AddResourceContextButton"
         Me.AddResourceContextButton.Size = New System.Drawing.Size(127, 22)
         Me.AddResourceContextButton.Text = "Add"
@@ -577,7 +577,7 @@ Partial Class MainForm
         'EditResourceContextButton
         '
         Me.EditResourceContextButton.Enabled = False
-        Me.EditResourceContextButton.Image = Global.Dark_Flow.My.Resources.Resources.EditIcon
+        Me.EditResourceContextButton.Image = Global.DarkFlow.My.Resources.Resources.EditIcon
         Me.EditResourceContextButton.Name = "EditResourceContextButton"
         Me.EditResourceContextButton.Size = New System.Drawing.Size(127, 22)
         Me.EditResourceContextButton.Text = "Edit"
@@ -585,7 +585,7 @@ Partial Class MainForm
         'DeleteResourceContextButton
         '
         Me.DeleteResourceContextButton.Enabled = False
-        Me.DeleteResourceContextButton.Image = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteResourceContextButton.Image = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         Me.DeleteResourceContextButton.Name = "DeleteResourceContextButton"
         Me.DeleteResourceContextButton.ShortcutKeys = System.Windows.Forms.Keys.Delete
         Me.DeleteResourceContextButton.Size = New System.Drawing.Size(127, 22)
@@ -606,7 +606,7 @@ Partial Class MainForm
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = Global.Dark_Flow.My.Resources.Resources.MicroLogo
+        Me.PictureBox1.Image = Global.DarkFlow.My.Resources.Resources.MicroLogo
         Me.PictureBox1.Location = New System.Drawing.Point(4, 1)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(54, 54)

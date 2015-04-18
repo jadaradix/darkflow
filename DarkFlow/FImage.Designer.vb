@@ -28,19 +28,19 @@ Partial Class FImage
         Me.DCancelButton = New System.Windows.Forms.ToolStripButton()
         Me.TSS2 = New System.Windows.Forms.ToolStripSeparator()
         Me.DeleteButton = New System.Windows.Forms.ToolStripButton()
-        Me.ImagePanel = New Dark_Flow.DoubleBufferPanel()
-        Me.SidePanel = New Dark_Flow.DoubleBufferPanel()
-        Me.GenerateFontImageButton = New Dark_Flow.SexyButton()
-        Me.SaveToFileButton = New Dark_Flow.SexyButton()
-        Me.SampleDropper = New Dark_Flow.SexyComboBox()
+        Me.ImagePanel = New DarkFlow.DoubleBufferPanel()
+        Me.SidePanel = New DarkFlow.DoubleBufferPanel()
+        Me.GenerateFontImageButton = New DarkFlow.SexyButton()
+        Me.SaveToFileButton = New DarkFlow.SexyButton()
+        Me.SampleDropper = New DarkFlow.SexyComboBox()
         Me.UseSampleLabel = New System.Windows.Forms.Label()
-        Me.NameTextBox = New Dark_Flow.SexyTextBox()
+        Me.NameTextBox = New DarkFlow.SexyTextBox()
         Me.FrameWidthExplainLabel = New System.Windows.Forms.Label()
-        Me.LoadFromFileButton = New Dark_Flow.SexyButton()
-        Me.FrameHeightSelector = New Dark_Flow.SexyNumeric()
+        Me.LoadFromFileButton = New DarkFlow.SexyButton()
+        Me.FrameHeightSelector = New DarkFlow.SexyNumeric()
         Me.NameLabel = New System.Windows.Forms.Label()
         Me.FrameHeightLabel = New System.Windows.Forms.Label()
-        Me.EditButton = New Dark_Flow.SexyButton()
+        Me.EditButton = New DarkFlow.SexyButton()
         Me.MainToolStrip.SuspendLayout()
         Me.SidePanel.SuspendLayout()
         Me.SuspendLayout()
@@ -55,7 +55,7 @@ Partial Class FImage
         '
         'DAcceptButton
         '
-        Me.DAcceptButton.Image = Global.Dark_Flow.My.Resources.Resources.AcceptIcon
+        Me.DAcceptButton.Image = Global.DarkFlow.My.Resources.Resources.AcceptIcon
         Me.DAcceptButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DAcceptButton.Name = "DAcceptButton"
         Me.DAcceptButton.Size = New System.Drawing.Size(64, 22)
@@ -81,7 +81,7 @@ Partial Class FImage
         '
         'DeleteButton
         '
-        Me.DeleteButton.Image = Global.Dark_Flow.My.Resources.Resources.DeleteIcon
+        Me.DeleteButton.Image = Global.DarkFlow.My.Resources.Resources.DeleteIcon
         Me.DeleteButton.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.DeleteButton.Name = "DeleteButton"
         Me.DeleteButton.Size = New System.Drawing.Size(60, 22)
@@ -99,7 +99,7 @@ Partial Class FImage
         '
         'SidePanel
         '
-        Me.SidePanel.BackgroundImage = Global.Dark_Flow.My.Resources.Resources.InverseGradient
+        Me.SidePanel.BackgroundImage = Global.DarkFlow.My.Resources.Resources.InverseGradient
         Me.SidePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.SidePanel.Controls.Add(Me.GenerateFontImageButton)
         Me.SidePanel.Controls.Add(Me.SaveToFileButton)
@@ -148,13 +148,13 @@ Partial Class FImage
         Me.SaveToFileButton.TabStop = True
         Me.SaveToFileButton.Text = "Save"
         Me.SaveToFileButton.TextImageSpacing = CType(0, Byte)
-        Me.SaveToFileButton.XIMage = Global.Dark_Flow.My.Resources.Resources.SaveFileIcon
+        Me.SaveToFileButton.XIMage = Global.DarkFlow.My.Resources.Resources.SaveFileIcon
         '
         'SampleDropper
         '
         Me.SampleDropper.BackColor = System.Drawing.Color.Transparent
         Me.SampleDropper.BorderColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.SampleDropper.Image = Global.Dark_Flow.My.Resources.Resources.NewFileIcon
+        Me.SampleDropper.Image = Global.DarkFlow.My.Resources.Resources.NewFileIcon
         Me.SampleDropper.Location = New System.Drawing.Point(10, 198)
         Me.SampleDropper.Name = "SampleDropper"
         Me.SampleDropper.ShadowColor = System.Drawing.Color.FromArgb(CType(CType(72, Byte), Integer), CType(CType(72, Byte), Integer), CType(CType(72, Byte), Integer))
@@ -211,7 +211,7 @@ Partial Class FImage
         Me.LoadFromFileButton.TabStop = True
         Me.LoadFromFileButton.Text = "Load from File"
         Me.LoadFromFileButton.TextImageSpacing = CType(0, Byte)
-        Me.LoadFromFileButton.XIMage = Global.Dark_Flow.My.Resources.Resources.OpenFileIcon
+        Me.LoadFromFileButton.XIMage = Global.DarkFlow.My.Resources.Resources.OpenFileIcon
         '
         'FrameHeightSelector
         '
@@ -264,7 +264,7 @@ Partial Class FImage
         Me.EditButton.TabStop = True
         Me.EditButton.Text = "Edit"
         Me.EditButton.TextImageSpacing = CType(0, Byte)
-        Me.EditButton.XIMage = Global.Dark_Flow.My.Resources.Resources.EditIcon
+        Me.EditButton.XIMage = Global.DarkFlow.My.Resources.Resources.EditIcon
         '
         'FImage
         '
@@ -290,18 +290,18 @@ Partial Class FImage
     Friend WithEvents DCancelButton As System.Windows.Forms.ToolStripButton
     Friend WithEvents TSS1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents NameLabel As System.Windows.Forms.Label
-    Friend WithEvents LoadFromFileButton As Dark_Flow.SexyButton
-    Friend WithEvents EditButton As Dark_Flow.SexyButton
-    Friend WithEvents ImagePanel As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents FrameHeightSelector As Dark_Flow.SexyNumeric
+    Friend WithEvents LoadFromFileButton As DarkFlow.SexyButton
+    Friend WithEvents EditButton As DarkFlow.SexyButton
+    Friend WithEvents ImagePanel As DarkFlow.DoubleBufferPanel
+    Friend WithEvents FrameHeightSelector As DarkFlow.SexyNumeric
     Friend WithEvents FrameHeightLabel As System.Windows.Forms.Label
     Friend WithEvents FrameWidthExplainLabel As System.Windows.Forms.Label
-    Friend WithEvents SidePanel As Dark_Flow.DoubleBufferPanel
-    Friend WithEvents NameTextBox As Dark_Flow.SexyTextBox
+    Friend WithEvents SidePanel As DarkFlow.DoubleBufferPanel
+    Friend WithEvents NameTextBox As DarkFlow.SexyTextBox
     Friend WithEvents DeleteButton As System.Windows.Forms.ToolStripButton
     Friend WithEvents TSS2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents UseSampleLabel As System.Windows.Forms.Label
-    Friend WithEvents SampleDropper As Dark_Flow.SexyComboBox
-    Friend WithEvents SaveToFileButton As Dark_Flow.SexyButton
-    Friend WithEvents GenerateFontImageButton As Dark_Flow.SexyButton
+    Friend WithEvents SampleDropper As DarkFlow.SexyComboBox
+    Friend WithEvents SaveToFileButton As DarkFlow.SexyButton
+    Friend WithEvents GenerateFontImageButton As DarkFlow.SexyButton
 End Class
