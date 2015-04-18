@@ -31,3 +31,5 @@ ClientBin/
 *.publishsettings
 
 Thumbs.db
+
+release/
