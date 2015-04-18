@@ -3,6 +3,7 @@ LoadProject/
 Options.dat
 DarkFlow.xml
 Options.dat
+PlatformProfiles/*.exe
 
 Dark Flow.exe
 ODFXMaker.exe
