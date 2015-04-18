@@ -1,0 +1,56 @@
+body, html {
+ background-color: black;
+ padding: 0px;
+ margin: 0px;
+}
+.GameBox {
+ display: none;
+ border-radius: 4px;
+ border: 2px solid rgb(0, 0, 0);
+ background-color: rgb(64, 64, 64);
+}
+.GameBoxiPad {
+ box-shadow: 0px 0px 12px rgb(192, 192, 192);
+}
+#VPusher {
+}
+#Canvas {
+ border-radius: 4px;
+ display: none;
+}
+#Loader {
+ width: 252px;
+ height: 188px;
+}
+#ProgressBox {
+ width: 220px;
+ background-color: white;
+ margin: 0px auto 0px auto;
+ padding: 10px 0px 10px 0px;
+ border-radius: 8px;
+}
+#ProgressBar {
+ margin: 0px 10px 0px 10px;
+ width: 200px;
+ background-color: white;
+ height: 25px;
+ background-image: url('DFResources/DF_BarBG.png');
+}
+#ProgressOver {
+ background-image: url('DFResources/DF_BarOver.png');
+ color: white;
+ font: 16px Arial; font-weight: bold; letter-spacing: -1px;
+ height: 25px;
+ width: 100%;
+}
+#ProgressBlocker {
+ height: 25px;
+ float: right;
+ width: 50%;
+ background-color: white;
+}
+#Logo {
+ display: block;
+ width: 224px;
+ margin: 50px auto 20px auto;
+}

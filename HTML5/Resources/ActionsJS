@@ -1,0 +1,141 @@
+//////////////
+// Generics //
+//////////////
+
+function Is_Divisible(Input, Divisor) {
+  return (((Input % Divisor) == 0) ? 1 : 0);
+}
+
+function Random (Min, Max) {
+ return Math.floor(Math.random() * (Max - Min + 1)) + Min;
+}
+
+function Round_Down(Value, Multiple) {
+ return (Value - (Value % Multiple));
+}
+
+function Round_Up(Value, Multiple) {
+ return (Value - (Value % Multiple) + Multiple);
+}
+
+/////////////
+// Control //
+/////////////
+
+function Test_Chance(Sides) {
+  return (Random(1, Sides) == 1);
+}
+
+////////////
+// Scenes //
+////////////
+
+function Is_Next_Scene() {
+ return (((DF_Current_Scene + 1) <= (DF_Scene_Count - 1)) ? 1 : 0);
+}
+
+function Is_Previous_Scene() {
+ return ((DF_Current_Scene > 0) ? 1 : 0);
+}
+
+function Goto_Next_Scene() {
+ if (!Is_Next_Scene() == 1) return;
+ if (DF_Scene_Changing) return;
+ DF_Current_Scene += 1;
+ Scenes[DF_Current_Scene]();
+}
+
+function Goto_Previous_Scene() {
+ if (!Is_Previous_Scene() == 1) return;
+  if (DF_Scene_Changing) return;
+ DF_Current_Scene -= 1;
+ Scenes[DF_Current_Scene]();
+}
+
+/////////////////////////
+// Objects & Instances //
+/////////////////////////
+
+function Delete_Instance(InstanceID) {
+ Instances[InstanceID].InUse = false;
+ Instances[InstanceID].X = 0; Instances[InstanceID].Y = 0;
+}
+
+function Count_Instances(ObjectID) {
+ var Returnable = 0;
+ for (i in Instances) {
+  if (Instances[i].InUse && Instances[i].ObjectID == ObjectID) Returnable += 1;
+ }
+ return Returnable;
+}
+
+function Delete_At_Position(X, Y) {
+ for (i in Instances) {
+  if (DF_Ignore(i)) continue;
+  var IX = Instances[i].X;
+  var IY = Instances[i].Y;
+  if (IX == X && IY == Y) Delete_Instance(i);
+ }
+ return false;
+}
+
+function Object_At_Position(ObjectID, X, Y) {
+ for (i in Instances) {
+  if (DF_Ignore(i)) continue;
+  var IX = Instances[i].X;
+  var IY = Instances[i].Y;
+  if (Instances[i].ObjectID == ObjectID && IX == X && IY == Y) return true;
+ }
+ return false;
+}
+
+function Snap_To_Grid(InstanceID, SnapX, SnapY) {
+ var OldX = Instances[InstanceID].X;
+ var OldY = Instances[InstanceID].Y;
+ var ModX = (OldX % SnapX);
+ var ModY = (OldY % SnapY);
+ OldX -= ModX;
+ OldY -= ModY;
+ Instances[InstanceID].X = OldX;
+ Instances[InstanceID].Y = OldY;
+}
+
+///////////
+// Sound //
+///////////
+
+function Play_Sound(DSound) {
+ if (Resources[DSound] == 1) {
+ Resources[DSound].Data.play();
+ }
+}
+
+function Pause_Sound(DSound) {
+if (Resources[DSound] == 1) {
+ Resources[DSound].Data.pause();
+ }
+}
+
+/////////////
+// Display //
+/////////////
+
+function Set_Draw_Color(R, G, B) {
+ ctx.fillStyle = "rgb(" + R + ", " + B + ", " + G + ")";
+}
+
+function Draw_Text(X, Y, Content) {
+ ctx.fillText(Content, X, Y);
+}
+
+function Set_Background(Background) {
+ CurrentBackground = Background;
+}
+
+function Set_Foreground(Background) {
+ CurrentForeground = Background;
+}
+
+function Change_Image(InstanceID, ImagePointer) {
+ Instances[InstanceID].Image = ImagePointer;
+}

@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>This game is not supported on your device</title>
+    <style>
+      body {
+       background-color: #434343;
+       background-image: url('DFResources/errorbg.png');
+      }
+      img {
+       height: 600px;
+       margin: 16px;
+      }
+    </style>
+  </head>
+  <body>
+   <center>
+    <img src="DFResources/wrongconsole.png" />
+   <center>
+  </body>
+</html>
