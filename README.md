@@ -3,6 +3,16 @@ Make your own games for Windows and web browsers. Retrospectively open sourced f
 
 With love from James and Robert.
 
+## Building
+Open `HTML5.sln`, `PCRunner.sln` and `ODFXMaker.sln` and "debug" them all. This ensures there is an EXE available for each.
+
+Run `build.bat` which copies the solution EXE files to the main `bin/Debug` folder.
+
+Open `DarkFlow.sln` and it works!
+
+## Releasing
+The `Build` process above should have been done already. Run `release.sh` which creates a `release` directory. Do not run this on Windows - you should be running Windows in a virtual machine anyway. 
+
 ## MIT License (for Dark Flow)
 
 The MIT License (MIT)
