@@ -1,0 +1,7 @@
+obj/
+bin/Release/
+bin/Debug/DFTemp/
+bin/Debug/LoadProject/
+bin/Debug/Options.dat
+bin/Debug/data.dat
+bin/Debug/Dark Flow.xml
